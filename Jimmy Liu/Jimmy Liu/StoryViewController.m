@@ -25,6 +25,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.storyCellTable.estimatedRowHeight = 44.0;
     self.storyCellTable.rowHeight = UITableViewAutomaticDimension;
+    
+    CGRect newFrame = self.storyCellTable.tableHeaderView.frame;
+    newFrame.size.height = newFrame.size.height / 2 + 80;
+    self.storyCellTable.tableHeaderView.frame = newFrame;
+    [self.storyCellTable setTableHeaderView:self.storyCellTable.tableHeaderView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,6 +69,7 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
+        cell.paragraphText.text = @"";
         cell.paragraphText.text = @"In the modern world full of variables that are unique to each person, everybody poccesses two fundamnetal dates: their birth and death. For me, this date lies on the 8th of Janurary. Born in the busy city of Beijing, my parents quickly imigrated to the United States.";
         return cell;
     } else if (indexPath.row == 2) {
@@ -88,6 +94,24 @@
         }
         cell.titleText.text = @"1. This is a test title text";
         return cell;
+    }
+}
+
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Remove seperator inset
+    if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
+        [cell setSeparatorInset:UIEdgeInsetsZero];
+    }
+    
+    // Prevent the cell from inheriting the Table View's margin settings
+    if ([cell respondsToSelector:@selector(setPreservesSuperviewLayoutMargins:)]) {
+        [cell setPreservesSuperviewLayoutMargins:NO];
+    }
+    
+    // Explictly set your cell's layout margins
+    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
+        [cell setLayoutMargins:UIEdgeInsetsZero];
     }
 }
 
