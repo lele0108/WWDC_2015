@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+//reusable: paragraphCell
 @interface ParagraphCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIView *paragraphText;
 
 @end

@@ -150,15 +150,6 @@
                                                 <rect key="frame" x="38" y="107" width="325" height="94"/>
                                             </variation>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Janurary 8th, 1998" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiH-fV-13v">
-                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="105" y="230" width="191" height="21"/>
-                                            </variation>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beijing, China" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmI-oj-Gyw">
                                             <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -168,6 +159,15 @@
                                                 <rect key="frame" x="105" y="278" width="191" height="21"/>
                                             </variation>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Janurary 8th, 1998" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiH-fV-13v">
+                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="105" y="230" width="191" height="21"/>
+                                            </variation>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <variation key="default">
@@ -175,8 +175,8 @@
                                             <exclude reference="2pm-Fm-4WL"/>
                                             <exclude reference="mpb-Yr-zkJ"/>
                                             <exclude reference="qyP-MD-FAI"/>
-                                            <exclude reference="HiH-fV-13v"/>
                                             <exclude reference="QmI-oj-Gyw"/>
+                                            <exclude reference="HiH-fV-13v"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
@@ -184,13 +184,13 @@
                                             <include reference="2pm-Fm-4WL"/>
                                             <include reference="mpb-Yr-zkJ"/>
                                             <include reference="qyP-MD-FAI"/>
-                                            <include reference="HiH-fV-13v"/>
                                             <include reference="QmI-oj-Gyw"/>
+                                            <include reference="HiH-fV-13v"/>
                                         </mask>
                                     </variation>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="qwe-ab-Agv">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="paragraphCell" rowHeight="103" id="qwe-ab-Agv" customClass="ParagraphCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qwe-ab-Agv" id="Uwi-J0-9N6">
@@ -217,14 +217,17 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="paragraphText" destination="Uwi-J0-9N6" id="sQf-m1-tlW"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="cw8-FO-JFJ">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="titleCell" rowHeight="70" id="cw8-FO-JFJ" customClass="TitleCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cw8-FO-JFJ" id="vQO-dS-BCP">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. This is a title label example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJT-4P-y4n">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. This is a title label example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJT-4P-y4n" customClass="Title">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -245,8 +248,11 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleText" destination="TJT-4P-y4n" id="4SK-9O-JWe"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="z87-wa-mB8">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="quoteCell" rowHeight="93" id="z87-wa-mB8" customClass="QuoteCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z87-wa-mB8" id="5NW-Y1-d4O">
@@ -272,8 +278,11 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="quoteText" destination="3CZ-GH-ziB" id="Meq-bc-05J"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="2WE-MZ-vsP">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="singleImageCell" rowHeight="131" id="2WE-MZ-vsP" customClass="SingleImageCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2WE-MZ-vsP" id="o6v-Wo-g2z">
@@ -297,8 +306,11 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageOne" destination="VKg-BK-g4o" id="9qv-eg-pYC"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="uD8-aT-HBZ">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="doubleImageCell" rowHeight="129" id="uD8-aT-HBZ" customClass="DoubleImageCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uD8-aT-HBZ" id="ijw-KJ-SFC">
@@ -330,8 +342,12 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageOne" destination="kGR-gs-x7r" id="4nk-qJ-1OR"/>
+                                            <outlet property="imageTwo" destination="Zqb-c0-q6b" id="G4d-Tq-cZz"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="bik-iO-ara">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tripleImageCell" rowHeight="127" id="bik-iO-ara" customClass="TripleImageCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bik-iO-ara" id="i20-hE-MrJ">
@@ -371,6 +387,11 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageOne" destination="WQe-6x-kAb" id="vaO-at-ZWg"/>
+                                            <outlet property="imageThree" destination="fXi-Yi-avr" id="sIj-qi-Dap"/>
+                                            <outlet property="imageTwo" destination="Tup-5I-LhB" id="FJJ-4P-HfG"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -393,6 +414,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="storyDate" destination="HiH-fV-13v" id="Dhh-VB-q1f"/>
+                        <outlet property="storyImage" destination="2pm-Fm-4WL" id="ygs-Mg-eiw"/>
+                        <outlet property="storyLocation" destination="QmI-oj-Gyw" id="9Xb-UX-jb9"/>
+                        <outlet property="storyNumber" destination="mpb-Yr-zkJ" id="Xfy-D6-d7P"/>
+                        <outlet property="storyTitle" destination="qyP-MD-FAI" id="ufX-EP-ggf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YgQ-Yu-ddK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

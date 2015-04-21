@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+//reusable: tripleImageCell
 @interface TripleImageCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imageOne;
+@property (strong, nonatomic) IBOutlet UIImageView *imageTwo;
+@property (strong, nonatomic) IBOutlet UIImageView *imageThree;
 
 @end

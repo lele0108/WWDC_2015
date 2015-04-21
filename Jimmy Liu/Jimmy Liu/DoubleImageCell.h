@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+//reusable: doubleImageCell
 @interface DoubleImageCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imageOne;
+@property (strong, nonatomic) IBOutlet UIImageView *imageTwo;
 
 @end

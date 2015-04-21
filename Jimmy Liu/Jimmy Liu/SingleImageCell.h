@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+//reusable:singleImageCell
 @interface SingleImageCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imageOne;
 
 @end

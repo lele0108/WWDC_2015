@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+//reusable: quoteCell
 @interface QuoteCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *quoteText;
 
 @end

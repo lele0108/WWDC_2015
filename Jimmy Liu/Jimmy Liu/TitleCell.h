@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+//reusable: titleCell
 @interface TitleCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet Title *titleText;
 
 @end

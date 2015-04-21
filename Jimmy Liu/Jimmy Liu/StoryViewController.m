@@ -7,6 +7,16 @@
 //
 
 #import "StoryViewController.h"
+#import "TitleCell.h"
+#import "ParagraphCell.h"
+#import "QuoteCell.h"
+#import "SingleImageCell.h"
+#import "DoubleImageCell.h"
+#import "TripleImageCell.h"
+
+@interface StoryViewController() <UITableViewDataSource, UITableViewDelegate>
+
+@end
 
 @implementation StoryViewController
 
