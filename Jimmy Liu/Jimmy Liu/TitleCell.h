@@ -10,6 +10,6 @@
 
 //reusable: titleCell
 @interface TitleCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet Title *titleText;
+@property (strong, nonatomic) IBOutlet UILabel *titleText;
 
 @end

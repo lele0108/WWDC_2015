@@ -10,6 +10,6 @@
 
 //reusable: paragraphCell
 @interface ParagraphCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet UIView *paragraphText;
+@property (strong, nonatomic) IBOutlet UILabel *paragraphText;
 
 @end

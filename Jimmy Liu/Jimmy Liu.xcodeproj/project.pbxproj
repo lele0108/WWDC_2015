@@ -24,6 +24,7 @@
 		0B09569F1AE6056D000015FA /* DoubleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B09569E1AE6056D000015FA /* DoubleImageCell.m */; };
 		0B0956A21AE60576000015FA /* TripleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0956A11AE60576000015FA /* TripleImageCell.m */; };
 		0B0956A51AE6057D000015FA /* QuoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0956A41AE6057D000015FA /* QuoteCell.m */; };
+		0B0956A71AE60C31000015FA /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956A61AE60C31000015FA /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0B0956A11AE60576000015FA /* TripleImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripleImageCell.m; sourceTree = "<group>"; };
 		0B0956A31AE6057D000015FA /* QuoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteCell.h; sourceTree = "<group>"; };
 		0B0956A41AE6057D000015FA /* QuoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteCell.m; sourceTree = "<group>"; };
+		0B0956A61AE60C31000015FA /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = Images/test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				0B09568B1AE60393000015FA /* Images */,
 				0B07471E1AE4619600A971FF /* AppDelegate.h */,
+				0B0956A61AE60C31000015FA /* test.jpg */,
 				0B07471F1AE4619600A971FF /* AppDelegate.m */,
 				0B0747211AE4619600A971FF /* ViewController.h */,
 				0B0747221AE4619600A971FF /* ViewController.m */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B09568C1AE60393000015FA /* Images in Resources */,
+				0B0956A71AE60C31000015FA /* test.jpg in Resources */,
 				0B0747261AE4619600A971FF /* Main.storyboard in Resources */,
 				0B07472B1AE4619600A971FF /* LaunchScreen.xib in Resources */,
 				0B0747281AE4619600A971FF /* Images.xcassets in Resources */,
