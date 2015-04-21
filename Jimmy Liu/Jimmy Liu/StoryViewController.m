@@ -84,15 +84,43 @@
         
         cell.imageOne.image = bgPhoto;
         return cell;
-    } else {
-        static NSString *CellIdentifier = @"titleCell";
-        TitleCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    } else if (indexPath.row == 3) {
+        static NSString *CellIdentifier = @"doubleImageCell";
+        DoubleImageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
-            cell = [[TitleCell alloc]
+            cell = [[DoubleImageCell alloc]
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        cell.titleText.text = @"1. This is a test title text";
+        UIImage *bgPhoto = [UIImage imageNamed: @"test.jpg"];
+        
+        cell.imageOne.image = bgPhoto;
+        cell.imageTwo.image = bgPhoto;
+        return cell;
+    } else if (indexPath.row == 4) {
+        static NSString *CellIdentifier = @"quoteCell";
+        QuoteCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[QuoteCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier];
+        }
+        cell.quoteText.text = @"";
+        cell.quoteText.text = @"Once upon a time Steve Jobs said that all men were brilliant";
+        return cell;
+    } else {
+        static NSString *CellIdentifier = @"tripleImageCell";
+        TripleImageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[TripleImageCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier];
+        }
+        UIImage *bgPhoto = [UIImage imageNamed: @"test.jpg"];
+        
+        cell.imageOne.image = bgPhoto;
+        cell.imageTwo.image = bgPhoto;
+        cell.imageThree.image = bgPhoto;
         return cell;
     }
 }
