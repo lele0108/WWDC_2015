@@ -12,4 +12,5 @@
 @interface ParagraphCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *paragraphText;
 
+
 @end

@@ -14,5 +14,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *storyDate;
 @property (strong, nonatomic) IBOutlet UILabel *storyLocation;
 @property (strong, nonatomic) IBOutlet UIImageView *storyImage;
+@property (strong, nonatomic) IBOutlet UITableView *storyCellTable;
 
 @end
