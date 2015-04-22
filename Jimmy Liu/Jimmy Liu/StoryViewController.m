@@ -26,7 +26,6 @@
     
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.hidesBarsOnSwipe = YES;
-    self.navigationController.navigationBar.topItem.title = @"";
     
     // Do any additional setup after loading the view, typically from a nib.
     self.storyCellTable.estimatedRowHeight = 44.0;
@@ -96,6 +95,7 @@
         }
         
         cell.imageOne.image = [UIImage imageNamed: content[@"image"]];
+        cell.imageOne.clipsToBounds = YES;
         return cell;
     } else if ([content[@"type"] isEqualToString:@"double_image"]) {
         static NSString *CellIdentifier = @"doubleImageCell";
@@ -107,7 +107,9 @@
         }
         
         cell.imageOne.image = [UIImage imageNamed: content[@"image"][0]];
+        cell.imageOne.clipsToBounds = YES;
         cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
+        cell.imageTwo.clipsToBounds = YES;
         return cell;
     } else if ([content[@"type"] isEqualToString:@"triple_image"]) {
         static NSString *CellIdentifier = @"tripleImageCell";
@@ -119,8 +121,11 @@
         }
         
         cell.imageOne.image = [UIImage imageNamed: content[@"image"][0]];
+        cell.imageOne.clipsToBounds = YES;
         cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
+        cell.imageTwo.clipsToBounds = YES;
         cell.imageThree.image = [UIImage imageNamed: content[@"image"][2]];
+        cell.imageThree.clipsToBounds = YES;
         return cell;
     } else {
         static NSString *CellIdentifier = @"quoteCell";

@@ -29,7 +29,6 @@
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.hidesBarsOnSwipe = NO;
     [[self navigationController] setNavigationBarHidden:NO animated:YES];
-    self.navigationController.navigationBar.topItem.title = @"Jimmy Liu";
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
