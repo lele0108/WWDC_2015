@@ -8,6 +8,7 @@
 
 #import "FeedViewController.h"
 #import "FeedTableCell.h"
+#import "StoryViewController.h"
 
 @interface FeedViewController() <UITableViewDataSource, UITableViewDelegate>
 
@@ -20,17 +21,23 @@
     self.story = [[NSArray alloc]
                   initWithObjects:@"Everyone has a Hello World. This is mine.",
                   @"Those who disrupt are those who make the future",
-                  @"Art and technology go hand in hand", nil];
+                  @"Art and technology go hand in hand", @"Someone once said fortune favors the bold", nil];
     self.desp = [[NSArray alloc]
                   initWithObjects:@"Janurary 8th 1998 · Beijing China",
                   @"March 8th 2013 · San Francisco California",
-                  @"December 21st 2014 · Cupertino, California", nil];
+                  @"December 21st 2014 · Cupertino, California", @"May 22nd 2015 · Cupertino, California", nil];
     self.images = [[NSArray alloc]
-                 initWithObjects:@"test.jpg",
-                 @"test.jpg",
-                 @"test.jpg", nil];
+                 initWithObjects:@"test1.jpg",
+                 @"test2.jpg",
+                 @"test3.jpg", @"test4.jpg", nil];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.hidesBarsOnSwipe = NO;
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    self.navigationController.navigationBar.topItem.title = @"Jimmy Liu";
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -86,6 +93,25 @@
     // Explictly set your cell's layout margins
     if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
         [cell setLayoutMargins:UIEdgeInsetsZero];
+    }
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showStory"])
+    {
+        StoryViewController *storyViewController =
+        [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.feedTableView
+                                    indexPathForSelectedRow];
+        
+        storyViewController.storyModel = @{
+                                           @"title": [self.story
+                                                      objectAtIndex: [myIndexPath row]],
+                                           @"image": [self.images
+                                                     objectAtIndex: [myIndexPath row]]
+                                           };
     }
 }
 

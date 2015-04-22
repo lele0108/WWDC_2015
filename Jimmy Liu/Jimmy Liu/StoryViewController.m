@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.translucent = YES;
+    self.navigationController.hidesBarsOnSwipe = YES;
+    self.navigationController.navigationBar.topItem.title = @"";
     
     // Do any additional setup after loading the view, typically from a nib.
     self.storyCellTable.estimatedRowHeight = 44.0;
@@ -32,6 +34,9 @@
     newFrame.size.height = newFrame.size.height / 2 + 80;
     self.storyCellTable.tableHeaderView.frame = newFrame;
     [self.storyCellTable setTableHeaderView:self.storyCellTable.tableHeaderView];
+    
+    self.storyImage.image = [UIImage imageNamed: self.storyModel[@"image"]];
+    self.storyTitle.text = self.storyModel[@"title"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -82,9 +87,8 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        UIImage *bgPhoto = [UIImage imageNamed: @"test.jpg"];
         
-        cell.imageOne.image = bgPhoto;
+        cell.imageOne.image = [UIImage imageNamed: @"test4.jpg"];
         return cell;
     } else if (indexPath.row == 3) {
         static NSString *CellIdentifier = @"doubleImageCell";
@@ -94,10 +98,9 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        UIImage *bgPhoto = [UIImage imageNamed: @"test.jpg"];
         
-        cell.imageOne.image = bgPhoto;
-        cell.imageTwo.image = bgPhoto;
+        cell.imageOne.image = [UIImage imageNamed: @"test3.jpg"];
+        cell.imageTwo.image = [UIImage imageNamed: @"test4.jpg"];
         return cell;
     } else if (indexPath.row == 4) {
         static NSString *CellIdentifier = @"quoteCell";
@@ -118,11 +121,10 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        UIImage *bgPhoto = [UIImage imageNamed: @"test.jpg"];
         
-        cell.imageOne.image = bgPhoto;
-        cell.imageTwo.image = bgPhoto;
-        cell.imageThree.image = bgPhoto;
+        cell.imageOne.image = [UIImage imageNamed: @"test1.jpg"];
+        cell.imageTwo.image = [UIImage imageNamed: @"test2.jpg"];
+        cell.imageThree.image = [UIImage imageNamed: @"test3.jpg"];
         return cell;
     }
 }
@@ -149,5 +151,8 @@
 {
     return YES;
 }
+
+#pragma mark: scrolling
+
 
 @end

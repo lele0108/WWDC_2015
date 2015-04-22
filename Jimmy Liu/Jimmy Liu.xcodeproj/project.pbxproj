@@ -25,6 +25,10 @@
 		0B0956A21AE60576000015FA /* TripleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0956A11AE60576000015FA /* TripleImageCell.m */; };
 		0B0956A51AE6057D000015FA /* QuoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0956A41AE6057D000015FA /* QuoteCell.m */; };
 		0B0956A71AE60C31000015FA /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956A61AE60C31000015FA /* test.jpg */; };
+		0B0956AB1AE7687D000015FA /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956A81AE7687D000015FA /* test1.jpg */; };
+		0B0956AC1AE7687D000015FA /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956A91AE7687D000015FA /* test2.jpg */; };
+		0B0956AD1AE7687D000015FA /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956AA1AE7687D000015FA /* test3.jpg */; };
+		0B0956B01AE768DB000015FA /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956AF1AE768DB000015FA /* test4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		0B0956A31AE6057D000015FA /* QuoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteCell.h; sourceTree = "<group>"; };
 		0B0956A41AE6057D000015FA /* QuoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteCell.m; sourceTree = "<group>"; };
 		0B0956A61AE60C31000015FA /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = Images/test.jpg; sourceTree = "<group>"; };
+		0B0956A81AE7687D000015FA /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test1.jpg; path = Images/test1.jpg; sourceTree = "<group>"; };
+		0B0956A91AE7687D000015FA /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test2.jpg; path = Images/test2.jpg; sourceTree = "<group>"; };
+		0B0956AA1AE7687D000015FA /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test3.jpg; path = Images/test3.jpg; sourceTree = "<group>"; };
+		0B0956AF1AE768DB000015FA /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test4.jpg; path = Images/test4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +122,9 @@
 			children = (
 				0B09568B1AE60393000015FA /* Images */,
 				0B07471E1AE4619600A971FF /* AppDelegate.h */,
-				0B0956A61AE60C31000015FA /* test.jpg */,
 				0B07471F1AE4619600A971FF /* AppDelegate.m */,
 				0B0747211AE4619600A971FF /* ViewController.h */,
+				0B0956AE1AE76883000015FA /* Images */,
 				0B0747221AE4619600A971FF /* ViewController.m */,
 				0B09568A1AE60183000015FA /* Feed */,
 				0B09568D1AE6044C000015FA /* Story */,
@@ -184,6 +192,18 @@
 				0B0956A41AE6057D000015FA /* QuoteCell.m */,
 			);
 			name = Story;
+			sourceTree = "<group>";
+		};
+		0B0956AE1AE76883000015FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B0956AF1AE768DB000015FA /* test4.jpg */,
+				0B0956A61AE60C31000015FA /* test.jpg */,
+				0B0956A81AE7687D000015FA /* test1.jpg */,
+				0B0956A91AE7687D000015FA /* test2.jpg */,
+				0B0956AA1AE7687D000015FA /* test3.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +288,13 @@
 			files = (
 				0B09568C1AE60393000015FA /* Images in Resources */,
 				0B0956A71AE60C31000015FA /* test.jpg in Resources */,
+				0B0956AC1AE7687D000015FA /* test2.jpg in Resources */,
+				0B0956AD1AE7687D000015FA /* test3.jpg in Resources */,
 				0B0747261AE4619600A971FF /* Main.storyboard in Resources */,
 				0B07472B1AE4619600A971FF /* LaunchScreen.xib in Resources */,
 				0B0747281AE4619600A971FF /* Images.xcassets in Resources */,
+				0B0956AB1AE7687D000015FA /* test1.jpg in Resources */,
+				0B0956B01AE768DB000015FA /* test4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jimmy Liu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -432,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jimmy Liu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
