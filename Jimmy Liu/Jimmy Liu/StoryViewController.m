@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.translucent = YES;
+    
     // Do any additional setup after loading the view, typically from a nib.
     self.storyCellTable.estimatedRowHeight = 44.0;
     self.storyCellTable.rowHeight = UITableViewAutomaticDimension;
@@ -141,6 +143,11 @@
     if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
         [cell setLayoutMargins:UIEdgeInsetsZero];
     }
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 @end
