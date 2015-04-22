@@ -16,5 +16,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *storyImage;
 @property (strong, nonatomic) IBOutlet UITableView *storyCellTable;
 @property (strong, nonatomic) NSDictionary *storyModel;
+@property (strong, nonatomic) NSArray *contents;
 
 @end

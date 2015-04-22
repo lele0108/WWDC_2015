@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.contents = self.storyModel[@"contents"];
+    
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.hidesBarsOnSwipe = YES;
     self.navigationController.navigationBar.topItem.title = @"";
@@ -37,6 +39,8 @@
     
     self.storyImage.image = [UIImage imageNamed: self.storyModel[@"image"]];
     self.storyTitle.text = self.storyModel[@"name"];
+    self.storyDate.text = self.storyModel[@"date"];
+    self.storyLocation.text = self.storyModel[@"location"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,12 +57,14 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 6;
+    return [self.contents count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 0) {
+   
+    NSDictionary *content = self.contents[indexPath.row];
+    if ([content[@"type"] isEqualToString:@"title"]) {
         static NSString *CellIdentifier = @"titleCell";
         TitleCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
@@ -66,9 +72,10 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        cell.titleText.text = @"1. This is a test title text";
+        cell.titleText.text = content[@"text"];
         return cell;
-    } else if (indexPath.row == 1) {
+
+    } else if ([content[@"type"] isEqualToString:@"paragraph"]) {
         static NSString *CellIdentifier = @"paragraphCell";
         ParagraphCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
@@ -77,9 +84,9 @@
                     reuseIdentifier:CellIdentifier];
         }
         cell.paragraphText.text = @"";
-        cell.paragraphText.text = @"In the modern world full of variables that are unique to each person, everybody poccesses two fundamnetal dates: their birth and death. For me, this date lies on the 8th of Janurary. Born in the busy city of Beijing, my parents quickly imigrated to the United States.";
+        cell.paragraphText.text = content[@"text"];
         return cell;
-    } else if (indexPath.row == 2) {
+    } else if ([content[@"type"] isEqualToString:@"single_image"]) {
         static NSString *CellIdentifier = @"singleImageCell";
         SingleImageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
@@ -88,9 +95,9 @@
                     reuseIdentifier:CellIdentifier];
         }
         
-        cell.imageOne.image = [UIImage imageNamed: @"test4.jpg"];
+        cell.imageOne.image = [UIImage imageNamed: content[@"image"]];
         return cell;
-    } else if (indexPath.row == 3) {
+    } else if ([content[@"type"] isEqualToString:@"double_image"]) {
         static NSString *CellIdentifier = @"doubleImageCell";
         DoubleImageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
@@ -99,21 +106,10 @@
                     reuseIdentifier:CellIdentifier];
         }
         
-        cell.imageOne.image = [UIImage imageNamed: @"test3.jpg"];
-        cell.imageTwo.image = [UIImage imageNamed: @"test4.jpg"];
+        cell.imageOne.image = [UIImage imageNamed: content[@"image"][0]];
+        cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
         return cell;
-    } else if (indexPath.row == 4) {
-        static NSString *CellIdentifier = @"quoteCell";
-        QuoteCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-        if (cell == nil) {
-            cell = [[QuoteCell alloc]
-                    initWithStyle:UITableViewCellStyleDefault
-                    reuseIdentifier:CellIdentifier];
-        }
-        cell.quoteText.text = @"";
-        cell.quoteText.text = @"Once upon a time Steve Jobs said that all men were brilliant";
-        return cell;
-    } else {
+    } else if ([content[@"type"] isEqualToString:@"triple_image"]) {
         static NSString *CellIdentifier = @"tripleImageCell";
         TripleImageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
@@ -122,9 +118,20 @@
                     reuseIdentifier:CellIdentifier];
         }
         
-        cell.imageOne.image = [UIImage imageNamed: @"test1.jpg"];
-        cell.imageTwo.image = [UIImage imageNamed: @"test2.jpg"];
-        cell.imageThree.image = [UIImage imageNamed: @"test3.jpg"];
+        cell.imageOne.image = [UIImage imageNamed: content[@"image"][0]];
+        cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
+        cell.imageThree.image = [UIImage imageNamed: content[@"image"][2]];
+        return cell;
+    } else {
+        static NSString *CellIdentifier = @"quoteCell";
+        QuoteCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[QuoteCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier];
+        }
+        cell.quoteText.text = @"";
+        cell.quoteText.text = content[@"text"];
         return cell;
     }
 }
