@@ -29,6 +29,7 @@
 		0B0956AC1AE7687D000015FA /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956A91AE7687D000015FA /* test2.jpg */; };
 		0B0956AD1AE7687D000015FA /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956AA1AE7687D000015FA /* test3.jpg */; };
 		0B0956B01AE768DB000015FA /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956AF1AE768DB000015FA /* test4.jpg */; };
+		0BB8C8CA1AE777E500952CE4 /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BB8C8C91AE777E500952CE4 /* story.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		0B0956A91AE7687D000015FA /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test2.jpg; path = Images/test2.jpg; sourceTree = "<group>"; };
 		0B0956AA1AE7687D000015FA /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test3.jpg; path = Images/test3.jpg; sourceTree = "<group>"; };
 		0B0956AF1AE768DB000015FA /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test4.jpg; path = Images/test4.jpg; sourceTree = "<group>"; };
+		0BB8C8C91AE777E500952CE4 /* story.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				0B0956841AE6001F000015FA /* FeedViewController.h */,
 				0B0956851AE6001F000015FA /* FeedViewController.m */,
+				0BB8C8C91AE777E500952CE4 /* story.json */,
 				0B0956871AE60111000015FA /* FeedTableCell.h */,
 				0B0956881AE60111000015FA /* FeedTableCell.m */,
 			);
@@ -289,6 +292,7 @@
 				0B09568C1AE60393000015FA /* Images in Resources */,
 				0B0956A71AE60C31000015FA /* test.jpg in Resources */,
 				0B0956AC1AE7687D000015FA /* test2.jpg in Resources */,
+				0BB8C8CA1AE777E500952CE4 /* story.json in Resources */,
 				0B0956AD1AE7687D000015FA /* test3.jpg in Resources */,
 				0B0747261AE4619600A971FF /* Main.storyboard in Resources */,
 				0B07472B1AE4619600A971FF /* LaunchScreen.xib in Resources */,

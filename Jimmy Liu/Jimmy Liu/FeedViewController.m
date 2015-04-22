@@ -30,6 +30,11 @@
                  initWithObjects:@"test1.jpg",
                  @"test2.jpg",
                  @"test3.jpg", @"test4.jpg", nil];
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"story" ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    NSLog(@"THIS IS STUFF: %@", json);
 }
 
 - (void)viewDidAppear:(BOOL)animated {
