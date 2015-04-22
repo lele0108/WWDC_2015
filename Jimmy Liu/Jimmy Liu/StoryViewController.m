@@ -36,7 +36,7 @@
     [self.storyCellTable setTableHeaderView:self.storyCellTable.tableHeaderView];
     
     self.storyImage.image = [UIImage imageNamed: self.storyModel[@"image"]];
-    self.storyTitle.text = self.storyModel[@"title"];
+    self.storyTitle.text = self.storyModel[@"name"];
 }
 
 - (void)didReceiveMemoryWarning {

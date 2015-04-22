@@ -18,23 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.story = [[NSArray alloc]
-                  initWithObjects:@"Everyone has a Hello World. This is mine.",
-                  @"Those who disrupt are those who make the future",
-                  @"Art and technology go hand in hand", @"Someone once said fortune favors the bold", nil];
-    self.desp = [[NSArray alloc]
-                  initWithObjects:@"Janurary 8th 1998 · Beijing China",
-                  @"March 8th 2013 · San Francisco California",
-                  @"December 21st 2014 · Cupertino, California", @"May 22nd 2015 · Cupertino, California", nil];
-    self.images = [[NSArray alloc]
-                 initWithObjects:@"test1.jpg",
-                 @"test2.jpg",
-                 @"test3.jpg", @"test4.jpg", nil];
     
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"story" ofType:@"json"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
-    NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    NSLog(@"THIS IS STUFF: %@", json);
+    self.data = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    NSLog(@"THIS IS STUFF: %@", self.data);
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -53,7 +41,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [self.story count];
+    return [self.data count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -69,14 +57,12 @@
     }
     
     // Configure the cell...
-    cell.titleText.text = [self.story
-                           objectAtIndex: [indexPath row]];
+    NSDictionary *story = [self.data objectAtIndex: [indexPath row]];
+    cell.titleText.text = story[@"name"];
     
-    cell.despText.text = [self.desp
-                            objectAtIndex:[indexPath row]];
+    cell.despText.text = [NSString stringWithFormat:@"%@ · %@", story[@"date"], story[@"location"]];
     
-    UIImage *bgPhoto = [UIImage imageNamed:
-                         [self.images objectAtIndex: [indexPath row]]];
+    UIImage *bgPhoto = [UIImage imageNamed: story[@"image"]];
     
     cell.bgImage.image = bgPhoto;
     
@@ -111,12 +97,7 @@
         NSIndexPath *myIndexPath = [self.feedTableView
                                     indexPathForSelectedRow];
         
-        storyViewController.storyModel = @{
-                                           @"title": [self.story
-                                                      objectAtIndex: [myIndexPath row]],
-                                           @"image": [self.images
-                                                     objectAtIndex: [myIndexPath row]]
-                                           };
+        storyViewController.storyModel = [self.data objectAtIndex: [myIndexPath row]];
     }
 }
 

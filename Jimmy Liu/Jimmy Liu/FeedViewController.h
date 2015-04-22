@@ -10,9 +10,6 @@
 
 @interface FeedViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *feedTableView;
-
-@property (nonatomic, strong) NSArray *story;
-@property (nonatomic, strong) NSArray *desp;
-@property (nonatomic, strong) NSArray *images;
+@property (nonatomic, strong) NSArray *data;
 
 @end
