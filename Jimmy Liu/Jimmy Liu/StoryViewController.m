@@ -33,7 +33,7 @@
     self.mediaFocusController.delegate = self;
     
     // Do any additional setup after loading the view, typically from a nib.
-    self.storyCellTable.estimatedRowHeight = 44.0;
+    self.storyCellTable.estimatedRowHeight = 2.0;
     self.storyCellTable.rowHeight = UITableViewAutomaticDimension;
     
     CGRect newFrame = self.storyCellTable.tableHeaderView.frame;
@@ -45,6 +45,8 @@
     self.storyTitle.text = self.storyModel[@"name"];
     self.storyDate.text = self.storyModel[@"date"];
     self.storyLocation.text = self.storyModel[@"location"];
+    [self.storyCellTable layoutIfNeeded];
+    [self.storyCellTable reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -77,6 +79,7 @@
                     reuseIdentifier:CellIdentifier];
         }
         cell.titleText.text = content[@"text"];
+        [cell layoutIfNeeded];
         return cell;
 
     } else if ([content[@"type"] isEqualToString:@"paragraph"]) {
@@ -89,6 +92,7 @@
         }
         cell.paragraphText.text = @"";
         cell.paragraphText.text = content[@"text"];
+        [cell layoutIfNeeded];
         return cell;
     } else if ([content[@"type"] isEqualToString:@"single_image"]) {
         static NSString *CellIdentifier = @"singleImageCell";
@@ -103,7 +107,7 @@
         [cell.imageOne addGestureRecognizer:tapGestureRecognizer];
         cell.imageOne.image = [UIImage imageNamed: content[@"image"]];
         cell.imageOne.clipsToBounds = YES;
-        
+        [cell layoutIfNeeded];
         return cell;
     } else if ([content[@"type"] isEqualToString:@"double_image"]) {
         static NSString *CellIdentifier = @"doubleImageCell";
@@ -124,6 +128,7 @@
         cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
         cell.imageTwo.clipsToBounds = YES;
         [cell.imageTwo addGestureRecognizer:tapGestureRecognizerTwo];
+        [cell layoutIfNeeded];
         return cell;
     } else if ([content[@"type"] isEqualToString:@"triple_image"]) {
         static NSString *CellIdentifier = @"tripleImageCell";
@@ -149,6 +154,7 @@
         UITapGestureRecognizer* tapGestureRecognizerThree = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
         [tapGestureRecognizerThree setDelegate:self];
         [cell.imageThree addGestureRecognizer:tapGestureRecognizerThree];
+        [cell layoutIfNeeded];
         return cell;
     } else {
         static NSString *CellIdentifier = @"quoteCell";
@@ -160,6 +166,7 @@
         }
         cell.quoteText.text = @"";
         cell.quoteText.text = content[@"text"];
+        [cell layoutIfNeeded];
         return cell;
     }
 }

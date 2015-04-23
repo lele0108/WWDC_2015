@@ -1,82 +1,90 @@
-[
+ [
   {
-    "name": "Everyone has a Hello World. This is mine.",
-    "date": "Janurary 8th, 1998",
-    "location": "Beijing, China",
-    "image": "test1.jpg",
-    "contents": [
-      {
-        "type": "title",
-        "text": "1. The beginning to everything"
-      },
-      {
-        "type": "paragraph",
-        "text": "In the modern world full of varaibles that are unique to each person, everybody poccesses two fundamental dates: their bith and death. For me, this date lies on the 8th of Janurary. Born in the busy city of Beijing, my parents quickly imigrated to the United States. "
-      },
-      {
-        "type": "single_image",
-        "image": "test1.jpg"
-      },
-      {
-        "type": "double_image",
-        "image": [
-          "test2.jpg",
-          "test3.jpg"
-        ]
-      },
-      {
-        "type": "quote",
-        "text": "This is a famous quote by a famous author",
-        "author": "Steve Jobs"
-      },
-      {
-        "type": "triple_image",
-        "image": [
-          "test3.jpg",
-          "test4.jpg",
-          "test1.jpg"
-        ]
-      }
-    ]
+  "name": "Everyone has a Hello World. This is mine.",
+  "date": "Janurary 8th, 1998",
+  "location": "Beijing, China",
+  "image": "test1.jpg",
+  "contents": [
+               {
+               "type": "title",
+               "text": "1. The beginning to everything"
+               },
+               {
+               "type": "paragraph",
+               "text": "he modern world full of variables that are unique to each person, everyone still shares two fundamental dates: their both and death. For me, the first date lies on the 8th of January. I was born in the city of Beijing while my parents attended college."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "Our family soon migrated to America, residing in the city of Boise while my dad went to college. I was only one at this time, barely grasping the ability to speak and walk. We moved again to the Silicon Valley after my dad finished his degree. Our final city to this date is Cupertino, California, where I started my education."
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "Starting from the earliest days, I was deeply interested in the computer. One of my deepest memories would be the day my parents gifted me my first PC: a handy down Packard Bell machine running Windows 98. Truth was that it could do little more than minesweeper, but it was this machine that ultimately fostered my hobby."
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "test3.jpg",
+                         "test4.jpg",
+                         "test1.jpg"
+                         ]
+               },
+               {
+               "type": "quote",
+               "text": "Find something interesting in your life and follow it to your grave. - Steve Jobs",
+               "author": "Steve Jobs"
+               }
+               ]
   },
   {
-    "name": "Those who disrupt are those who make the future",
-    "date": "March 8th, 2013",
-    "location": "San Francisco, CA",
-    "image": "test2.jpg",
-    "contents": [
-      {
-        "type": "title",
-        "text": "2. This is what disruption looks like"
-      },
-      {
-        "type": "paragraph",
-        "text": "To this date, I always look back to this day as one of my best. Not just because we won. Not just because we beat out 1,200 other people in competition. Because we built something great. Because we made the world a better place."
-      },
-      {
-        "type": "single_image",
-        "image": "test1.jpg"
-      },
-      {
-        "type": "double_image",
-        "image": [
-          "test2.jpg",
-          "test3.jpg"
-        ]
-      },
-      {
-        "type": "triple_image",
-        "image": [
-          "test3.jpg",
-          "test4.jpg",
-          "test1.jpg"
-        ]
-      },
-      {
-        "type": "quote",
-        "text": "This is a famous quote by a famous author",
-        "author": "Steve Jobs"
-      }
-    ]
+  "name": "Those who disrupt are those who make the future",
+  "date": "March 8th, 2013",
+  "location": "San Francisco, CA",
+  "image": "test2.jpg",
+  "contents": [
+               {
+               "type": "title",
+               "text": "2. This is what disruption looks like"
+               },
+               {
+               "type": "paragraph",
+               "text": "To this date, I always look back to this day as one of my best. Not just because we won. Not just because we beat out 1,200 other people in competition. Because we built something great. Because we made the world a better place."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "test3.jpg",
+                         "test4.jpg",
+                         "test1.jpg"
+                         ]
+               },
+               {
+               "type": "quote",
+               "text": "This is a famous quote by a famous author",
+               "author": "Steve Jobs"
+               }
+               ]
   }
-]
+  ]
