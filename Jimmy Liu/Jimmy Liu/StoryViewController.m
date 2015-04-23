@@ -90,8 +90,11 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        cell.paragraphText.text = @"";
-        cell.paragraphText.text = content[@"text"];
+        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:content[@"text"]];
+        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+        [paragraphStyle setLineSpacing:8];
+        [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [content[@"text"] length])];
+        cell.paragraphText.attributedText = attributedString;
         [cell layoutIfNeeded];
         return cell;
     } else if ([content[@"type"] isEqualToString:@"single_image"]) {
