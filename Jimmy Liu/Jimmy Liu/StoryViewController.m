@@ -98,7 +98,9 @@
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier];
         }
-        
+        UITapGestureRecognizer* tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
+        [tapGestureRecognizer setDelegate:self];
+        [cell.imageOne addGestureRecognizer:tapGestureRecognizer];
         cell.imageOne.image = [UIImage imageNamed: content[@"image"]];
         cell.imageOne.clipsToBounds = YES;
         
@@ -114,8 +116,14 @@
         
         cell.imageOne.image = [UIImage imageNamed: content[@"image"][0]];
         cell.imageOne.clipsToBounds = YES;
+        UITapGestureRecognizer* tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
+        [tapGestureRecognizer setDelegate:self];
+        [cell.imageOne addGestureRecognizer:tapGestureRecognizer];
+        UITapGestureRecognizer* tapGestureRecognizerTwo = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
+        [tapGestureRecognizerTwo setDelegate:self];
         cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
         cell.imageTwo.clipsToBounds = YES;
+        [cell.imageTwo addGestureRecognizer:tapGestureRecognizerTwo];
         return cell;
     } else if ([content[@"type"] isEqualToString:@"triple_image"]) {
         static NSString *CellIdentifier = @"tripleImageCell";
@@ -128,10 +136,19 @@
         
         cell.imageOne.image = [UIImage imageNamed: content[@"image"][0]];
         cell.imageOne.clipsToBounds = YES;
+        UITapGestureRecognizer* tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
+        [tapGestureRecognizer setDelegate:self];
+        [cell.imageOne addGestureRecognizer:tapGestureRecognizer];
         cell.imageTwo.image = [UIImage imageNamed: content[@"image"][1]];
         cell.imageTwo.clipsToBounds = YES;
+        UITapGestureRecognizer* tapGestureRecognizerTwo = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
+        [tapGestureRecognizerTwo setDelegate:self];
+        [cell.imageTwo addGestureRecognizer:tapGestureRecognizerTwo];
         cell.imageThree.image = [UIImage imageNamed: content[@"image"][2]];
         cell.imageThree.clipsToBounds = YES;
+        UITapGestureRecognizer* tapGestureRecognizerThree = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureDetected:)];
+        [tapGestureRecognizerThree setDelegate:self];
+        [cell.imageThree addGestureRecognizer:tapGestureRecognizerThree];
         return cell;
     } else {
         static NSString *CellIdentifier = @"quoteCell";
@@ -170,7 +187,12 @@
     return YES;
 }
 
-#pragma mark: scrolling
+#pragma mark: gesture
+- (void)tapGestureDetected:(UITapGestureRecognizer *)recognizer
+{
+        UIImageView* temp = recognizer.view;
+        [self.mediaFocusController showImage:temp.image fromView:self.view];
+}
 
 
 @end

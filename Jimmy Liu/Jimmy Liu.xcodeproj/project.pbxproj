@@ -36,6 +36,7 @@
 		0B81FF361AE898EA008B55A5 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF351AE898EA008B55A5 /* View.xib */; };
 		0B81FF391AE89905008B55A5 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B81FF381AE89905008B55A5 /* PopUpView.m */; };
 		0B81FF3B1AE89D78008B55A5 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF3A1AE89D78008B55A5 /* profile.png */; };
+		0B81FF3E1AE8A2A2008B55A5 /* ZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B81FF3D1AE8A2A2008B55A5 /* ZoomView.m */; };
 		0BB8C8CA1AE777E500952CE4 /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BB8C8C91AE777E500952CE4 /* story.json */; };
 		EE14AA202321C50F75FDB198 /* libPods-Jimmy Liu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2B5D476EFEB3A766C4E9A5 /* libPods-Jimmy Liu.a */; };
 /* End PBXBuildFile section */
@@ -97,6 +98,8 @@
 		0B81FF371AE89905008B55A5 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
 		0B81FF381AE89905008B55A5 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
 		0B81FF3A1AE89D78008B55A5 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = Images/profile.png; sourceTree = "<group>"; };
+		0B81FF3C1AE8A2A2008B55A5 /* ZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomView.h; sourceTree = "<group>"; };
+		0B81FF3D1AE8A2A2008B55A5 /* ZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomView.m; sourceTree = "<group>"; };
 		0BB8C8C91AE777E500952CE4 /* story.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
 		9D2B5D476EFEB3A766C4E9A5 /* libPods-Jimmy Liu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jimmy Liu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E7FD343E3AB7811B92D2D3 /* Pods-Jimmy Liu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jimmy Liu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jimmy Liu/Pods-Jimmy Liu.release.xcconfig"; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 				0B0956A11AE60576000015FA /* TripleImageCell.m */,
 				0B0956A31AE6057D000015FA /* QuoteCell.h */,
 				0B0956A41AE6057D000015FA /* QuoteCell.m */,
+				0B81FF3C1AE8A2A2008B55A5 /* ZoomView.h */,
+				0B81FF3D1AE8A2A2008B55A5 /* ZoomView.m */,
 			);
 			name = Story;
 			sourceTree = "<group>";
@@ -412,6 +417,7 @@
 				0B0956A51AE6057D000015FA /* QuoteCell.m in Sources */,
 				0B81FF391AE89905008B55A5 /* PopUpView.m in Sources */,
 				0B0956A21AE60576000015FA /* TripleImageCell.m in Sources */,
+				0B81FF3E1AE8A2A2008B55A5 /* ZoomView.m in Sources */,
 				0B0956891AE60111000015FA /* FeedTableCell.m in Sources */,
 				0B0956931AE6048A000015FA /* StoryViewController.m in Sources */,
 				0B0747201AE4619600A971FF /* AppDelegate.m in Sources */,

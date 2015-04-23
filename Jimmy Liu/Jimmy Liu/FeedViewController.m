@@ -21,6 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"Futura-Medium" size:20],
+      NSFontAttributeName, nil]];
+    
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"story" ofType:@"json"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     self.data = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
@@ -29,6 +34,7 @@
     
     KLCPopup* popup = [KLCPopup popupWithContentView:contentView];
     [popup show];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
