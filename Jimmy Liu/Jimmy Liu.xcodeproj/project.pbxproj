@@ -29,7 +29,15 @@
 		0B0956AC1AE7687D000015FA /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956A91AE7687D000015FA /* test2.jpg */; };
 		0B0956AD1AE7687D000015FA /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956AA1AE7687D000015FA /* test3.jpg */; };
 		0B0956B01AE768DB000015FA /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0956AF1AE768DB000015FA /* test4.jpg */; };
+		0B81FF2D1AE88B91008B55A5 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF2C1AE88B91008B55A5 /* box.png */; };
+		0B81FF301AE88C97008B55A5 /* ios7-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF2E1AE88C97008B55A5 /* ios7-clock.png */; };
+		0B81FF311AE88C97008B55A5 /* ios7-location.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF2F1AE88C97008B55A5 /* ios7-location.png */; };
+		0B81FF341AE89711008B55A5 /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B81FF331AE89711008B55A5 /* KLCPopup.m */; };
+		0B81FF361AE898EA008B55A5 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF351AE898EA008B55A5 /* View.xib */; };
+		0B81FF391AE89905008B55A5 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B81FF381AE89905008B55A5 /* PopUpView.m */; };
+		0B81FF3B1AE89D78008B55A5 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B81FF3A1AE89D78008B55A5 /* profile.png */; };
 		0BB8C8CA1AE777E500952CE4 /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BB8C8C91AE777E500952CE4 /* story.json */; };
+		EE14AA202321C50F75FDB198 /* libPods-Jimmy Liu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2B5D476EFEB3A766C4E9A5 /* libPods-Jimmy Liu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +88,19 @@
 		0B0956A91AE7687D000015FA /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test2.jpg; path = Images/test2.jpg; sourceTree = "<group>"; };
 		0B0956AA1AE7687D000015FA /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test3.jpg; path = Images/test3.jpg; sourceTree = "<group>"; };
 		0B0956AF1AE768DB000015FA /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test4.jpg; path = Images/test4.jpg; sourceTree = "<group>"; };
+		0B81FF2C1AE88B91008B55A5 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box.png; path = Images/box.png; sourceTree = "<group>"; };
+		0B81FF2E1AE88C97008B55A5 /* ios7-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7-clock.png"; path = "Images/ios7-clock.png"; sourceTree = "<group>"; };
+		0B81FF2F1AE88C97008B55A5 /* ios7-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7-location.png"; path = "Images/ios7-location.png"; sourceTree = "<group>"; };
+		0B81FF321AE89711008B55A5 /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLCPopup.h; path = KLCPopup/KLCPopup.h; sourceTree = "<group>"; };
+		0B81FF331AE89711008B55A5 /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLCPopup.m; path = KLCPopup/KLCPopup.m; sourceTree = "<group>"; };
+		0B81FF351AE898EA008B55A5 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		0B81FF371AE89905008B55A5 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
+		0B81FF381AE89905008B55A5 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
+		0B81FF3A1AE89D78008B55A5 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = Images/profile.png; sourceTree = "<group>"; };
 		0BB8C8C91AE777E500952CE4 /* story.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
+		9D2B5D476EFEB3A766C4E9A5 /* libPods-Jimmy Liu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jimmy Liu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E7FD343E3AB7811B92D2D3 /* Pods-Jimmy Liu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jimmy Liu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jimmy Liu/Pods-Jimmy Liu.release.xcconfig"; sourceTree = "<group>"; };
+		F6C68FEE023B6488A4614AAE /* Pods-Jimmy Liu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jimmy Liu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jimmy Liu/Pods-Jimmy Liu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE14AA202321C50F75FDB198 /* libPods-Jimmy Liu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +128,8 @@
 				0B0747191AE4619600A971FF /* Jimmy Liu */,
 				0B0747331AE4619600A971FF /* Jimmy LiuTests */,
 				0B0747181AE4619600A971FF /* Products */,
+				3402CF8B43E560D30D128F53 /* Pods */,
+				D966D4C1EE5B6987410C823D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +190,12 @@
 		0B09568A1AE60183000015FA /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				0B81FF351AE898EA008B55A5 /* View.xib */,
+				0B81FF3A1AE89D78008B55A5 /* profile.png */,
+				0B81FF371AE89905008B55A5 /* PopUpView.h */,
+				0B81FF381AE89905008B55A5 /* PopUpView.m */,
+				0B81FF321AE89711008B55A5 /* KLCPopup.h */,
+				0B81FF331AE89711008B55A5 /* KLCPopup.m */,
 				0B0956841AE6001F000015FA /* FeedViewController.h */,
 				0B0956851AE6001F000015FA /* FeedViewController.m */,
 				0BB8C8C91AE777E500952CE4 /* story.json */,
@@ -200,6 +229,9 @@
 		0B0956AE1AE76883000015FA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0B81FF2E1AE88C97008B55A5 /* ios7-clock.png */,
+				0B81FF2F1AE88C97008B55A5 /* ios7-location.png */,
+				0B81FF2C1AE88B91008B55A5 /* box.png */,
 				0B0956AF1AE768DB000015FA /* test4.jpg */,
 				0B0956A61AE60C31000015FA /* test.jpg */,
 				0B0956A81AE7687D000015FA /* test1.jpg */,
@@ -209,6 +241,23 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		3402CF8B43E560D30D128F53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C68FEE023B6488A4614AAE /* Pods-Jimmy Liu.debug.xcconfig */,
+				A8E7FD343E3AB7811B92D2D3 /* Pods-Jimmy Liu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D966D4C1EE5B6987410C823D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B5D476EFEB3A766C4E9A5 /* libPods-Jimmy Liu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B07473A1AE4619600A971FF /* Build configuration list for PBXNativeTarget "Jimmy Liu" */;
 			buildPhases = (
+				38094F5C03810743713958B1 /* Check Pods Manifest.lock */,
 				0B0747131AE4619600A971FF /* Sources */,
 				0B0747141AE4619600A971FF /* Frameworks */,
 				0B0747151AE4619600A971FF /* Resources */,
+				2601E8107EF7D6D4764E7884 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,15 +340,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B81FF361AE898EA008B55A5 /* View.xib in Resources */,
 				0B09568C1AE60393000015FA /* Images in Resources */,
+				0B81FF2D1AE88B91008B55A5 /* box.png in Resources */,
 				0B0956A71AE60C31000015FA /* test.jpg in Resources */,
 				0B0956AC1AE7687D000015FA /* test2.jpg in Resources */,
+				0B81FF311AE88C97008B55A5 /* ios7-location.png in Resources */,
+				0B81FF301AE88C97008B55A5 /* ios7-clock.png in Resources */,
 				0BB8C8CA1AE777E500952CE4 /* story.json in Resources */,
 				0B0956AD1AE7687D000015FA /* test3.jpg in Resources */,
 				0B0747261AE4619600A971FF /* Main.storyboard in Resources */,
 				0B07472B1AE4619600A971FF /* LaunchScreen.xib in Resources */,
 				0B0747281AE4619600A971FF /* Images.xcassets in Resources */,
 				0B0956AB1AE7687D000015FA /* test1.jpg in Resources */,
+				0B81FF3B1AE89D78008B55A5 /* profile.png in Resources */,
 				0B0956B01AE768DB000015FA /* test4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +367,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2601E8107EF7D6D4764E7884 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jimmy Liu/Pods-Jimmy Liu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38094F5C03810743713958B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B0747131AE4619600A971FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,12 +410,14 @@
 				0B09569C1AE60564000015FA /* SingleImageCell.m in Sources */,
 				0B0747231AE4619600A971FF /* ViewController.m in Sources */,
 				0B0956A51AE6057D000015FA /* QuoteCell.m in Sources */,
+				0B81FF391AE89905008B55A5 /* PopUpView.m in Sources */,
 				0B0956A21AE60576000015FA /* TripleImageCell.m in Sources */,
 				0B0956891AE60111000015FA /* FeedTableCell.m in Sources */,
 				0B0956931AE6048A000015FA /* StoryViewController.m in Sources */,
 				0B0747201AE4619600A971FF /* AppDelegate.m in Sources */,
 				0B0956861AE6001F000015FA /* FeedViewController.m in Sources */,
 				0B0956961AE60551000015FA /* TitleCell.m in Sources */,
+				0B81FF341AE89711008B55A5 /* KLCPopup.m in Sources */,
 				0B07471D1AE4619600A971FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +538,7 @@
 		};
 		0B07473B1AE4619600A971FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C68FEE023B6488A4614AAE /* Pods-Jimmy Liu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jimmy Liu/Info.plist";
@@ -458,6 +550,7 @@
 		};
 		0B07473C1AE4619600A971FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E7FD343E3AB7811B92D2D3 /* Pods-Jimmy Liu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jimmy Liu/Info.plist";

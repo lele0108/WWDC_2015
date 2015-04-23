@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "URBMediaFocusViewController.h"
 
-@interface StoryViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface StoryViewController : UIViewController <URBMediaFocusViewControllerDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UILabel *storyNumber;
 @property (strong, nonatomic) IBOutlet UILabel *storyTitle;
 @property (strong, nonatomic) IBOutlet UILabel *storyDate;

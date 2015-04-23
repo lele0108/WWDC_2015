@@ -13,9 +13,11 @@
 #import "SingleImageCell.h"
 #import "DoubleImageCell.h"
 #import "TripleImageCell.h"
+#import "URBMediaFocusViewController.h"
 
 @interface StoryViewController() <UITableViewDataSource, UITableViewDelegate>
 
+@property (nonatomic, strong) URBMediaFocusViewController *mediaFocusController;
 @end
 
 @implementation StoryViewController
@@ -27,12 +29,15 @@
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.hidesBarsOnSwipe = YES;
     
+    self.mediaFocusController = [[URBMediaFocusViewController alloc] init];
+    self.mediaFocusController.delegate = self;
+    
     // Do any additional setup after loading the view, typically from a nib.
     self.storyCellTable.estimatedRowHeight = 44.0;
     self.storyCellTable.rowHeight = UITableViewAutomaticDimension;
     
     CGRect newFrame = self.storyCellTable.tableHeaderView.frame;
-    newFrame.size.height = newFrame.size.height / 2 + 80;
+    newFrame.size.height = newFrame.size.height / 2 + 100;
     self.storyCellTable.tableHeaderView.frame = newFrame;
     [self.storyCellTable setTableHeaderView:self.storyCellTable.tableHeaderView];
     
@@ -96,6 +101,7 @@
         
         cell.imageOne.image = [UIImage imageNamed: content[@"image"]];
         cell.imageOne.clipsToBounds = YES;
+        
         return cell;
     } else if ([content[@"type"] isEqualToString:@"double_image"]) {
         static NSString *CellIdentifier = @"doubleImageCell";

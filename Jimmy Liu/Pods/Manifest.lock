@@ -1,0 +1,10 @@
+PODS:
+  - URBMediaFocusViewController (0.5.7)
+
+DEPENDENCIES:
+  - URBMediaFocusViewController
+
+SPEC CHECKSUMS:
+  URBMediaFocusViewController: 0ddcf28fa095d91bceb3d977889243fab891cb79
+
+COCOAPODS: 0.36.0

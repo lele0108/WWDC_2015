@@ -11,5 +11,6 @@
 @interface FeedViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *feedTableView;
 @property (nonatomic, strong) NSArray *data;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *showPopUp;
 
 @end

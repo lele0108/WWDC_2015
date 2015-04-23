@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011BE0E40F9C58832C824018 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6C13A4C426F99B6BCEBA0 /* AssetsLibrary.framework */; };
+		0234003539F464696EF87D54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090472FA14EBD7A827E19204 /* QuartzCore.framework */; };
+		0BD239CA8E1CFC5213E7E788 /* URBMediaFocusViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9796B418EE1049F1C3A92C /* URBMediaFocusViewController.h */; };
+		24FC8CE8CBF20CDAF3886A13 /* Pods-Jimmy Liu-URBMediaFocusViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EE882CB94944C0E737A108 /* Pods-Jimmy Liu-URBMediaFocusViewController-dummy.m */; };
+		42280F42F8E791E04E5BAD51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389956CCA46BF41BBC38FF2 /* CoreGraphics.framework */; };
+		5D0F87AE499346F8901BD6BE /* Pods-Jimmy Liu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA23473228A5A0179E449D53 /* Pods-Jimmy Liu-dummy.m */; };
+		8B71EC44241FE829B68DC8DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC30978D419282C984396144 /* Foundation.framework */; };
+		99C805B4C4A6932892CBF0BA /* URBMediaFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F507FA4B67140153389A9281 /* URBMediaFocusViewController.m */; };
+		F63BCA552F22E16E50D277E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A7F185DD3765F4238C7BFF /* UIKit.framework */; };
+		FE31AE90369CC61879AA8FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC30978D419282C984396144 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14EA2DF433DFE20BE46F8DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24D800F2699C284C1A16737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56F87D249D80E1B852D1679;
+			remoteInfo = "Pods-Jimmy Liu-URBMediaFocusViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A7F185DD3765F4238C7BFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		090472FA14EBD7A827E19204 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0D9796B418EE1049F1C3A92C /* URBMediaFocusViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = URBMediaFocusViewController.h; sourceTree = "<group>"; };
+		14EC162BCDCCDCC424C8577E /* Pods-Jimmy Liu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jimmy Liu-resources.sh"; sourceTree = "<group>"; };
+		47EE882CB94944C0E737A108 /* Pods-Jimmy Liu-URBMediaFocusViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jimmy Liu-URBMediaFocusViewController-dummy.m"; sourceTree = "<group>"; };
+		592E3B883CC80AE759082BAF /* Pods-Jimmy Liu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jimmy Liu.debug.xcconfig"; sourceTree = "<group>"; };
+		6389956CCA46BF41BBC38FF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7F18EF5969F6F0352B370507 /* Pods-Jimmy Liu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jimmy Liu-acknowledgements.plist"; sourceTree = "<group>"; };
+		8100C7B0414FC64C4B618555 /* Pods-Jimmy Liu-URBMediaFocusViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jimmy Liu-URBMediaFocusViewController.xcconfig"; sourceTree = "<group>"; };
+		8BD6C13A4C426F99B6BCEBA0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		8FE2ACDE4C307FFC38EBCB5D /* Pods-Jimmy Liu-URBMediaFocusViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jimmy Liu-URBMediaFocusViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		93615D41A080C63E10076D97 /* Pods-Jimmy Liu-URBMediaFocusViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jimmy Liu-URBMediaFocusViewController-prefix.pch"; sourceTree = "<group>"; };
+		95313F1DDA70D8F1F80CCD8F /* libPods-Jimmy Liu-URBMediaFocusViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jimmy Liu-URBMediaFocusViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7EC37B1D9CA01564DF0C43 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA23473228A5A0179E449D53 /* Pods-Jimmy Liu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jimmy Liu-dummy.m"; sourceTree = "<group>"; };
+		D03B4B3BABE746C1FCE51456 /* Pods-Jimmy Liu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jimmy Liu.release.xcconfig"; sourceTree = "<group>"; };
+		D68576AA5E050698ED11331D /* Pods-Jimmy Liu-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jimmy Liu-environment.h"; sourceTree = "<group>"; };
+		DF45B674EBECC1113C7B98BC /* libPods-Jimmy Liu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jimmy Liu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC30978D419282C984396144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F507FA4B67140153389A9281 /* URBMediaFocusViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = URBMediaFocusViewController.m; sourceTree = "<group>"; };
+		FB080B08C3D34F39DA29AB55 /* Pods-Jimmy Liu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jimmy Liu-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3811FE4645BE7B70D0CA0542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011BE0E40F9C58832C824018 /* AssetsLibrary.framework in Frameworks */,
+				42280F42F8E791E04E5BAD51 /* CoreGraphics.framework in Frameworks */,
+				FE31AE90369CC61879AA8FA5 /* Foundation.framework in Frameworks */,
+				0234003539F464696EF87D54 /* QuartzCore.framework in Frameworks */,
+				F63BCA552F22E16E50D277E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF54BF0342E89D626BCC7DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71EC44241FE829B68DC8DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157C343921F17FA2AB24F577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4931DCC133084DC96DC2E716 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F842D66A7C9D642CE03C878 /* Pods-Jimmy Liu */ = {
+			isa = PBXGroup;
+			children = (
+				FB080B08C3D34F39DA29AB55 /* Pods-Jimmy Liu-acknowledgements.markdown */,
+				7F18EF5969F6F0352B370507 /* Pods-Jimmy Liu-acknowledgements.plist */,
+				CA23473228A5A0179E449D53 /* Pods-Jimmy Liu-dummy.m */,
+				D68576AA5E050698ED11331D /* Pods-Jimmy Liu-environment.h */,
+				14EC162BCDCCDCC424C8577E /* Pods-Jimmy Liu-resources.sh */,
+				592E3B883CC80AE759082BAF /* Pods-Jimmy Liu.debug.xcconfig */,
+				D03B4B3BABE746C1FCE51456 /* Pods-Jimmy Liu.release.xcconfig */,
+			);
+			name = "Pods-Jimmy Liu";
+			path = "Target Support Files/Pods-Jimmy Liu";
+			sourceTree = "<group>";
+		};
+		4931DCC133084DC96DC2E716 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6C13A4C426F99B6BCEBA0 /* AssetsLibrary.framework */,
+				6389956CCA46BF41BBC38FF2 /* CoreGraphics.framework */,
+				EC30978D419282C984396144 /* Foundation.framework */,
+				090472FA14EBD7A827E19204 /* QuartzCore.framework */,
+				04A7F185DD3765F4238C7BFF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53BD0895CEE1CC7975BF659F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF45B674EBECC1113C7B98BC /* libPods-Jimmy Liu.a */,
+				95313F1DDA70D8F1F80CCD8F /* libPods-Jimmy Liu-URBMediaFocusViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A141711884AACD0D3A4F00B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8100C7B0414FC64C4B618555 /* Pods-Jimmy Liu-URBMediaFocusViewController.xcconfig */,
+				8FE2ACDE4C307FFC38EBCB5D /* Pods-Jimmy Liu-URBMediaFocusViewController-Private.xcconfig */,
+				47EE882CB94944C0E737A108 /* Pods-Jimmy Liu-URBMediaFocusViewController-dummy.m */,
+				93615D41A080C63E10076D97 /* Pods-Jimmy Liu-URBMediaFocusViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Jimmy Liu-URBMediaFocusViewController";
+			sourceTree = "<group>";
+		};
+		AF1BEA96601813C0A3CB6C54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F842D66A7C9D642CE03C878 /* Pods-Jimmy Liu */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B01ADD5B8711307C238E35EB = {
+			isa = PBXGroup;
+			children = (
+				BD7EC37B1D9CA01564DF0C43 /* Podfile */,
+				157C343921F17FA2AB24F577 /* Frameworks */,
+				FD5B99A2C4B8BF3C80107ED4 /* Pods */,
+				53BD0895CEE1CC7975BF659F /* Products */,
+				AF1BEA96601813C0A3CB6C54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE12EC3609DC377916F71C5 /* URBMediaFocusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D9796B418EE1049F1C3A92C /* URBMediaFocusViewController.h */,
+				F507FA4B67140153389A9281 /* URBMediaFocusViewController.m */,
+				9A141711884AACD0D3A4F00B /* Support Files */,
+			);
+			path = URBMediaFocusViewController;
+			sourceTree = "<group>";
+		};
+		FD5B99A2C4B8BF3C80107ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDE12EC3609DC377916F71C5 /* URBMediaFocusViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		516CB46B4810C0779016DA34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD239CA8E1CFC5213E7E788 /* URBMediaFocusViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A56F87D249D80E1B852D1679 /* Pods-Jimmy Liu-URBMediaFocusViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30910FA8614743A3B6FBE036 /* Build configuration list for PBXNativeTarget "Pods-Jimmy Liu-URBMediaFocusViewController" */;
+			buildPhases = (
+				F71B4F153189FE65BBFC3CC6 /* Sources */,
+				3811FE4645BE7B70D0CA0542 /* Frameworks */,
+				516CB46B4810C0779016DA34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Jimmy Liu-URBMediaFocusViewController";
+			productName = "Pods-Jimmy Liu-URBMediaFocusViewController";
+			productReference = 95313F1DDA70D8F1F80CCD8F /* libPods-Jimmy Liu-URBMediaFocusViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E99C3586491F9194D993CCC5 /* Pods-Jimmy Liu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240427E3C919784A1A9A47D6 /* Build configuration list for PBXNativeTarget "Pods-Jimmy Liu" */;
+			buildPhases = (
+				142F77164D60996570C4F725 /* Sources */,
+				AF54BF0342E89D626BCC7DD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB03D70841E6E8E43B9BFD16 /* PBXTargetDependency */,
+			);
+			name = "Pods-Jimmy Liu";
+			productName = "Pods-Jimmy Liu";
+			productReference = DF45B674EBECC1113C7B98BC /* libPods-Jimmy Liu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24D800F2699C284C1A16737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 820757241DEA1636E081D1F1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B01ADD5B8711307C238E35EB;
+			productRefGroup = 53BD0895CEE1CC7975BF659F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99C3586491F9194D993CCC5 /* Pods-Jimmy Liu */,
+				A56F87D249D80E1B852D1679 /* Pods-Jimmy Liu-URBMediaFocusViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142F77164D60996570C4F725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0F87AE499346F8901BD6BE /* Pods-Jimmy Liu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71B4F153189FE65BBFC3CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC8CE8CBF20CDAF3886A13 /* Pods-Jimmy Liu-URBMediaFocusViewController-dummy.m in Sources */,
+				99C805B4C4A6932892CBF0BA /* URBMediaFocusViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB03D70841E6E8E43B9BFD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Jimmy Liu-URBMediaFocusViewController";
+			target = A56F87D249D80E1B852D1679 /* Pods-Jimmy Liu-URBMediaFocusViewController */;
+			targetProxy = 14EA2DF433DFE20BE46F8DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D94ECADF8981FD291B8D95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28533535F725F00B44EC0812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03B4B3BABE746C1FCE51456 /* Pods-Jimmy Liu.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6081FF0A7794D624F9CAF9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE2ACDE4C307FFC38EBCB5D /* Pods-Jimmy Liu-URBMediaFocusViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Jimmy Liu-URBMediaFocusViewController/Pods-Jimmy Liu-URBMediaFocusViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3250F38C6DFE228CFF1334C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9FEB3AB441BFB4F31681A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE2ACDE4C307FFC38EBCB5D /* Pods-Jimmy Liu-URBMediaFocusViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Jimmy Liu-URBMediaFocusViewController/Pods-Jimmy Liu-URBMediaFocusViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FAAAAA90CD203E160FC6B0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592E3B883CC80AE759082BAF /* Pods-Jimmy Liu.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240427E3C919784A1A9A47D6 /* Build configuration list for PBXNativeTarget "Pods-Jimmy Liu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAAA90CD203E160FC6B0A7 /* Debug */,
+				28533535F725F00B44EC0812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30910FA8614743A3B6FBE036 /* Build configuration list for PBXNativeTarget "Pods-Jimmy Liu-URBMediaFocusViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6081FF0A7794D624F9CAF9C7 /* Debug */,
+				E9FEB3AB441BFB4F31681A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820757241DEA1636E081D1F1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3250F38C6DFE228CFF1334C /* Debug */,
+				0D94ECADF8981FD291B8D95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24D800F2699C284C1A16737 /* Project object */;
+}

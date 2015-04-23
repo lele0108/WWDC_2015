@@ -9,6 +9,8 @@
 #import "FeedViewController.h"
 #import "FeedTableCell.h"
 #import "StoryViewController.h"
+#import "KLCPopup.h"
+#import "PopUpView.h"
 
 @interface FeedViewController() <UITableViewDataSource, UITableViewDelegate>
 
@@ -22,7 +24,11 @@
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"story" ofType:@"json"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     self.data = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    NSLog(@"THIS IS STUFF: %@", self.data);
+    UIView* contentView = [[NSBundle mainBundle] loadNibNamed:@"View" owner:self options:nil][0];
+    contentView.frame = CGRectMake(0.0, 0.0, 300.0, 400.0);
+    
+    KLCPopup* popup = [KLCPopup popupWithContentView:contentView];
+    [popup show];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -103,6 +109,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)showPop:(id)sender {
+    UIView* contentView = [[NSBundle mainBundle] loadNibNamed:@"View" owner:self options:nil][0];
+    contentView.frame = CGRectMake(0.0, 0.0, 300.0, 400.0);
+    
+    KLCPopup* popup = [KLCPopup popupWithContentView:contentView];
+    [popup show];
 }
 
 @end

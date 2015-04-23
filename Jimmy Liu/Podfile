@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'Jimmy Liu' do
-
+pod "URBMediaFocusViewController"
 end
 
 target 'Jimmy LiuTests' do
