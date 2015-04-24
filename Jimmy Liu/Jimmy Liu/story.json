@@ -4,6 +4,7 @@
   "date": "Janurary 8th, 1998",
   "location": "Beijing, China",
   "image": "test1.jpg",
+  "number": "Story One",
   "contents": [
                {
                "type": "title",
@@ -33,6 +34,10 @@
                "text": "Starting from the earliest days, I was deeply interested in the computer. One of my deepest memories would be the day my parents gifted me my first PC: a handy down Packard Bell machine running Windows 98. Truth was that it could do little more than minesweeper, but it was this machine that ultimately fostered my hobby."
                },
                {
+               "type": "paragraph",
+               "text": "In retrospect, my beginnings were humble but served as a necessary platform for me to become who I am today."
+               },
+               {
                "type": "triple_image",
                "image": [
                          "test3.jpg",
@@ -48,22 +53,27 @@
                ]
   },
   {
-  "name": "Those who disrupt are those who make the future",
-  "date": "March 8th, 2013",
-  "location": "San Francisco, CA",
+  "name": "Hi I’m in fourth grade and this is my website",
+  "date": "September 2007",
+  "location": "Cupertino, CA",
   "image": "test2.jpg",
+  "number": "Story Two",
   "contents": [
                {
                "type": "title",
-               "text": "2. This is what disruption looks like"
+               "text": "2. Taking the first steps"
                },
                {
                "type": "paragraph",
-               "text": "To this date, I always look back to this day as one of my best. Not just because we won. Not just because we beat out 1,200 other people in competition. Because we built something great. Because we made the world a better place."
+               "text": "I created my first web presence in fourth grade. It was nothing more than a drag and drop website powered by Microsoft. The fascinating part was that it was on the internet. And I was amazed by the internet."
                },
                {
                "type": "single_image",
                "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "The story of my fourth grade website ends here - I showed a few friends and that was all. But the internet story only begins. A few years later I was gifted a PSP (Playstation Portable) for my birthday. The PSP was equipped with a web browser and people created open source “Portals”, or websites that replicated the functionality of operating systems like Windows XP to run on the PSP. It was through this I was introduced to the syntactical language of HTML and CSS in addition to Photoshop."
                },
                {
                "type": "double_image",
@@ -73,12 +83,280 @@
                          ]
                },
                {
+               "type": "paragraph",
+               "text": "Later in middle school the internet would introduce me to running Linux servers and hosting Minecraft servers. While not related to programming, these system administration skills have come in handy many times and without the limitless freedom the internet provided I wouldn’t have learned about this. The internet also powered my first “business”, buying dedicated servers and running Minecraft servers for users. While only approached with limited success, it allowed me to generate some revenue and understand the values of running a business."
+               },
+               {
                "type": "triple_image",
                "image": [
                          "test3.jpg",
                          "test4.jpg",
                          "test1.jpg"
                          ]
+               },
+               {
+               "type": "paragraph",
+               "text": "I don’t have the coolness of saying that I was introduced the internet when it was just started. But I was introduced in the day and age where it served as a place to grow and learn. And I will forever be thankful of such an important tool in my life. "
+               },
+               {
+               "type": "quote",
+               "text": "This is a famous quote by a famous author",
+               "author": "Steve Jobs"
+               }
+               ]
+  },
+  {
+  "name": "My cliche story of how hackathons changed my life",
+  "date": "March 8th, 2012",
+  "location": "San Francisco, CA",
+  "image": "test3.jpg",
+  "number": "Story Three",
+  "contents": [
+               {
+               "type": "title",
+               "text": "3. The early days of hackathons"
+               },
+               {
+               "type": "paragraph",
+               "text": "Early in my freshmen year of high school, I met one of my best friends to date, someone I would later co-found a startup with. Being a junior in school, we were on the team together for the “website creation” competition for our school’s business club. Although we ended up winning first place at the state level for the competition, the most profound impact that was made on my life was the introduction of hackathons."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "This introduction was in the early days of hackathons - back when they were less popular and mostly targeted toward twenty-something year old developers. My skills were limited at this time to very basic HTML. At this tiny event hosted at a local high school, we created an application that did very little. But what this event catalyzed in me was the significance."
+               },
+               {
+               "type": "paragraph",
+               "text": "I distinctively remember my second hackathon just as well, hosted at Facebook. A much larger event with 300 developers, we built an application that superimposed mazes on photos. 3rd place and TechCrunch article."
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "The rest was a blur. We won TechCrunch Disrupt’s hackathon. I traveled to MIT all expenses paid with the same friends to write code at HackMIT. But with all gains comes sacrifice and it was my grades in school that suffered because of my outside activities. Looking back, it’s hard to say if I would have done the same or not. The early days of hackathons were tremendously enlightening when compared to the ultra competitive environment and over glorified environment today. Regardless of all, one truth is evident: hackathons really did introduce me to programming which would go on to define my dreams and aspirations."
+               }
+               ]
+  },
+  {
+  "name": "People should come before design and engineering in products",
+  "date": "Lifetime",
+  "location": "San Francisco, CA",
+  "image": "test4.jpg",
+  "number": "Story Four",
+  "contents": [
+               {
+               "type": "title",
+               "text": "4. People over everything"
+               },
+               {
+               "type": "paragraph",
+               "text": "This story delves more into my beliefs when creating applications for people. I’ve always loved design. In early grade school, I would spend a lot of time designing my PowerPoints to make them look beautiful despite the constant reminder by my parents that it “doesn’t matter how it looks”. Unlike other design oriented people, I wasn’t very good at art. But it’s my belief that my many years of violin playing has trained me to observe the arts."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "When I first visited Facebook’s campus, I was attracted to the poster’s they hung around their offices writing their beliefs. One poster in particular caught my one: “People over Pixels”. I agreed with this whole heartily: design isn’t just about how it looks, but rather much more about how it interacts with people. But putting people first shouldn’t stop at design, after all without people there would be no products. "
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "When it comes to building products, I firmly belief that people should come over anything. Apps should focus on how to assist in human interaction - not how to make a trivial task easier. Take Uber for example. It didn’t try to solve the problem of transportation, rather how to connect people together by getting them places. Or AirBnb, where people host other people in their homes. It was created to solve a very personal people problem of not having a place to stay."
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "test3.jpg",
+                         "test4.jpg",
+                         "test1.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "Even in this app, I always put people first. I wanted to create a beautiful reading experience where I could share my ideas and beliefs with other people. The interface was created to focus on the text and no distractions (which is why you do not see the clock on the story screen). When you put people first in your mind, your products become more human and bring more value to the table."
+               },
+               {
+               "type": "quote",
+               "text": "This is a famous quote by a famous author",
+               "author": "Steve Jobs"
+               }
+               ]
+  },
+  {
+  "name": "More about people",
+  "date": "Lifetime",
+  "location": "San Francisco, CA",
+  "image": "test1.jpg",
+  "number": "Story Five",
+  "contents": [
+               {
+               "type": "title",
+               "text": "5. Life is about people"
+               },
+               {
+               "type": "paragraph",
+               "text": "I talked about how people was the most important part of building a product. But my experiences has taught me that the importance of people does not stop there - people might be the most important aspect of life. This is the story that taught me how to value relationships."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "Entering my sophomore year of high school, I studied mostly by myself the first semester. I struggled a bit with school due to my busy schedule and in general didn’t do too great. Second semester I took a different approach: I fostered relationships with other people and grew my social network. I studied with friends and shared resources, and we looked out for each other on test days. Because of this, school took drastically less time and effort."
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "Learning that relationships with other people is important was a vital lesson for me and something that benefits me all the time. I wouldn’t have been introduced to hackathons if I didn’t have friends that brought me to my first one. I wouldn’t have started my startup if I didn’t go to my first hackathon."
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "test3.jpg",
+                         "test4.jpg",
+                         "test1.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "In a world where social media is slowly eating away from the real life connections people make, it’s easy to forget about communicating with people and keeping in touch. But relationships are always worth building. Although it’s hard to predict when they will come in useful, it’s almost certain that you will be glad that you kept in touch with people someday."
+               },
+               {
+               "type": "quote",
+               "text": "This is a famous quote by a famous author",
+               "author": "Steve Jobs"
+               }
+               ]
+  },
+  {
+  "name": "We wanted an design award. We got something better.",
+  "date": "July 16th, 2014",
+  "location": "Palo Alto, CA",
+  "image": "test2.jpg",
+  "number": "Story Six",
+  "contents": [
+               {
+               "type": "title",
+               "text": "6. Unexpected pathways"
+               },
+               {
+               "type": "paragraph",
+               "text": "Before school ended in my sophomore year of high school, I read about the WWDC student scholarship. I was interested in building an iOS app, but had no prior experience and only a week to learn before the deadline. In the end, I didn’t finish due to WWDC conflicting with the finals schedule of my high school. Importantly, I learned iOS and objective-C which would lead to something much greater."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "On a fateful summer night in 2014, I was greeted with two ideas that never crossed my mind. The first was eating at Oren’s Hummus, hand’s down the best hummus in the Silicon Valley. The second, was building an app that made it easy to organize events with friends. Two of my close friends knew that I had gained some experience with iOS during my time working on my WWDC app and wanted to create this idea to have a shot at the Apple Student Design Award."
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "Four months out of development, we were accepted into the Foundry, an incubator situated on the UC Berkeley campus. People loved the simplicity of the application (named Bash) to the point where we were offered angel investment before we even launched. We talked to the founders of YikYak about building viral apps. That was a month ago."
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "test3.jpg",
+                         "test4.jpg",
+                         "test1.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "All of this came out of trying iOS for the first time for this same scholarship. Bash (our app) was my second iOS app, and we were only trying to win the Apple Design Award. Yet it turned into something much greater. The most valuable lesson I learned? You miss 100% of the shots you don’t take."
+               },
+               {
+               "type": "quote",
+               "text": "This is a famous quote by a famous author",
+               "author": "Steve Jobs"
+               }
+               ]
+  },
+  {
+  "name": "Someone once said that fortune favored the bold",
+  "date": "April 20th, 2015",
+  "location": "San Francisco, CA",
+  "image": "test3.jpg",
+  "number": "Story Seven",
+  "contents": [
+               {
+               "type": "title",
+               "text": "7. On taking risks and the void"
+               },
+               {
+               "type": "paragraph",
+               "text": "This story took place days before this app was created."
+               },
+               {
+               "type": "paragraph",
+               "text": "It has been a dream since I first visited San Francisco to work there. A beautiful city with an even richer culture was something I fell in love with. I wasn’t given the chance in 2014 due to the classes I had to take over the summer, but I knew 2015 was the time to do so."
+               },
+               {
+               "type": "single_image",
+               "image": "test1.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "When summer 2015 was approaching, I was presented with another opportunity: working on my app (Bash) full time with my co-founders. We were in an incubator at this time and had wonderful mentors. Yet I still decided to interview and look for internships during the summer."
+               },
+               {
+               "type": "paragraph",
+               "text": "I received a offer from a small yet well known company - Yo. The app that allows you to send only two characters to people. The salary was competitive - if my internship had spanned an entire year I would be earning more than my teachers at high school. And the office was situated in SF on the busy street of Market Avenue."
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "test2.jpg",
+                         "test3.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "I was at a crossroads. I could either achieve a lifelong dream of working in SF while making a lot of money that would be used to pay for college, but at the same time lose my vested founder stock options and leave my app, and friends for dead. Or I could turn down the opportunity of a lifetime, something I wanted to do for years to work on my startup that had potential either to be great or nothing."
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "test3.jpg",
+                         "test4.jpg",
+                         "test1.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "I chose to be bold and to take a risk. Working on my startup over the summer won’t be easy - it’s a process I imagine that will be filled with days of code sprints and hours of sleepless nights. But at the end, I’m sure it will be a experience for me to learn, to reflect, and to gain values. And if I created this iOS WWDC app after the summer, there would surely be a story about what I learned."
                },
                {
                "type": "quote",

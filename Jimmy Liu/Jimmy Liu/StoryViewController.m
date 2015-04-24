@@ -45,6 +45,7 @@
     self.storyTitle.text = self.storyModel[@"name"];
     self.storyDate.text = self.storyModel[@"date"];
     self.storyLocation.text = self.storyModel[@"location"];
+    self.storyNumber.text = self.storyModel[@"number"];
     [self.storyCellTable layoutIfNeeded];
     [self.storyCellTable reloadData];
 }
