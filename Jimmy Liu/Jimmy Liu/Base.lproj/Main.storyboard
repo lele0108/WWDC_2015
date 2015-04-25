@@ -698,7 +698,7 @@
                                     </variation>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="paragraphCell" rowHeight="103" id="qwe-ab-Agv" customClass="ParagraphCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="paragraphCell" rowHeight="103" id="qwe-ab-Agv" customClass="ParagraphCell" customModule="Jimmy_Liu" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qwe-ab-Agv" id="Uwi-J0-9N6">
@@ -757,16 +757,16 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="paragraphText" destination="r8b-p2-d3q" id="pwe-3r-5ac"/>
+                                            <outlet property="paragraphText" destination="r8b-p2-d3q" id="ckQ-BJ-H3s"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="titleCell" rowHeight="70" id="cw8-FO-JFJ" customClass="TitleCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="titleCell" rowHeight="70" id="cw8-FO-JFJ" customClass="TitleCell" customModule="Jimmy_Liu" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cw8-FO-JFJ" id="vQO-dS-BCP">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. This is a title label example" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJT-4P-y4n" customClass="Title">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. This is a title label example" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJT-4P-y4n">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="62" id="IQO-eZ-6KC"/>
@@ -825,10 +825,72 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="titleText" destination="TJT-4P-y4n" id="4SK-9O-JWe"/>
+                                            <outlet property="titleText" destination="TJT-4P-y4n" id="eTO-zL-cgG"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="quoteCell" rowHeight="125" id="z87-wa-mB8" customClass="QuoteCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="centeredCell" rowHeight="69" id="kkU-Er-d04" customClass="CenteredCell" customModule="Jimmy_Liu" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kkU-Er-d04" id="L0e-8m-pXJ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzL-0S-PFp">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="9qW-EK-3ae"/>
+                                                        <constraint firstAttribute="width" constant="361" id="Mr0-q5-H0i"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="9qW-EK-3ae"/>
+                                                            <exclude reference="Mr0-q5-H0i"/>
+                                                        </mask>
+                                                    </variation>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <mask key="constraints">
+                                                            <include reference="9qW-EK-3ae"/>
+                                                            <include reference="Mr0-q5-H0i"/>
+                                                        </mask>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="rzL-0S-PFp" secondAttribute="bottom" constant="16" id="4R7-4J-0iJ"/>
+                                                <constraint firstItem="rzL-0S-PFp" firstAttribute="leading" secondItem="L0e-8m-pXJ" secondAttribute="leadingMargin" constant="12" id="EkB-3g-F9M"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rzL-0S-PFp" secondAttribute="trailing" constant="11" id="TV1-7k-aVC"/>
+                                                <constraint firstItem="rzL-0S-PFp" firstAttribute="top" secondItem="L0e-8m-pXJ" secondAttribute="topMargin" constant="16" id="kQ1-Pl-EP8"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="rzL-0S-PFp"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="4R7-4J-0iJ"/>
+                                                    <exclude reference="EkB-3g-F9M"/>
+                                                    <exclude reference="TV1-7k-aVC"/>
+                                                    <exclude reference="kQ1-Pl-EP8"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="rzL-0S-PFp"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="4R7-4J-0iJ"/>
+                                                    <include reference="EkB-3g-F9M"/>
+                                                    <include reference="TV1-7k-aVC"/>
+                                                    <include reference="kQ1-Pl-EP8"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="centeredText" destination="rzL-0S-PFp" id="ERa-m9-inX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="quoteCell" rowHeight="125" id="z87-wa-mB8" customClass="QuoteCell" customModule="Jimmy_Liu" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z87-wa-mB8" id="5NW-Y1-d4O">
@@ -904,16 +966,16 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="quoteText" destination="3CZ-GH-ziB" id="Meq-bc-05J"/>
+                                            <outlet property="quoteText" destination="3CZ-GH-ziB" id="jQy-fN-cev"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="singleImageCell" rowHeight="250" id="2WE-MZ-vsP" customClass="SingleImageCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="singleImageCell" rowHeight="250" id="2WE-MZ-vsP" customClass="SingleImageCell" customModule="Jimmy_Liu" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2WE-MZ-vsP" id="o6v-Wo-g2z">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-BK-g4o" customClass="ZoomView">
+                                                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-BK-g4o">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="400" id="0Yl-9A-jaC"/>
@@ -996,10 +1058,10 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imageOne" destination="VKg-BK-g4o" id="9qv-eg-pYC"/>
+                                            <outlet property="imageOne" destination="VKg-BK-g4o" id="UK6-96-Z4s"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="doubleImageCell" rowHeight="211" id="uD8-aT-HBZ" customClass="DoubleImageCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="doubleImageCell" rowHeight="211" id="uD8-aT-HBZ" customClass="DoubleImageCell" customModule="Jimmy_Liu" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uD8-aT-HBZ" id="ijw-KJ-SFC">
@@ -1157,11 +1219,11 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imageOne" destination="kGR-gs-x7r" id="4nk-qJ-1OR"/>
-                                            <outlet property="imageTwo" destination="Zqb-c0-q6b" id="G4d-Tq-cZz"/>
+                                            <outlet property="imageOne" destination="kGR-gs-x7r" id="34i-i7-j6I"/>
+                                            <outlet property="imageTwo" destination="Zqb-c0-q6b" id="eBU-mZ-42r"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tripleImageCell" rowHeight="200" id="bik-iO-ara" customClass="TripleImageCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tripleImageCell" rowHeight="200" id="bik-iO-ara" customClass="TripleImageCell" customModule="Jimmy_Liu" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bik-iO-ara" id="i20-hE-MrJ">
@@ -1319,9 +1381,9 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imageOne" destination="WQe-6x-kAb" id="vaO-at-ZWg"/>
-                                            <outlet property="imageThree" destination="fXi-Yi-avr" id="sIj-qi-Dap"/>
-                                            <outlet property="imageTwo" destination="Tup-5I-LhB" id="FJJ-4P-HfG"/>
+                                            <outlet property="imageOne" destination="WQe-6x-kAb" id="PBd-WA-xtm"/>
+                                            <outlet property="imageThree" destination="fXi-Yi-avr" id="mh9-TM-sjM"/>
+                                            <outlet property="imageTwo" destination="Tup-5I-LhB" id="ejJ-NO-XRT"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

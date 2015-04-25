@@ -7,13 +7,8 @@
 //
 
 #import "StoryViewController.h"
-#import "TitleCell.h"
-#import "ParagraphCell.h"
-#import "QuoteCell.h"
-#import "SingleImageCell.h"
-#import "DoubleImageCell.h"
-#import "TripleImageCell.h"
 #import "URBMediaFocusViewController.h"
+#import "Jimmy_Liu-Swift.h"
 
 @interface StoryViewController() <UITableViewDataSource, UITableViewDelegate>
 
@@ -96,6 +91,17 @@
         [paragraphStyle setLineSpacing:8];
         [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [content[@"text"] length])];
         cell.paragraphText.attributedText = attributedString;
+        [cell layoutIfNeeded];
+        return cell;
+    } else if ([content[@"type"] isEqualToString:@"centered"]) {
+        static NSString *CellIdentifier = @"centeredCell";
+        CenteredCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[CenteredCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier];
+        }
+        cell.centeredText.text = content[@"text"];
         [cell layoutIfNeeded];
         return cell;
     } else if ([content[@"type"] isEqualToString:@"single_image"]) {
