@@ -2,17 +2,14 @@
 
 My goal: to create a beautiful reading exprience for conveying a curation of my beliefs and learning. 
 
+
 ![Screenshot1](http://i.imgur.com/qa6t3BM.png) ![Screenshot2](http://i.imgur.com/68n4304.png) ![Screenshot3](http://i.imgur.com/p8pM4BK.png)
 
-#JSON spec
+#App Details
 
-Stories are loaded via JSON. Basic spec is avaialble here: 
-
-object:
-  type: (string) (i.e. paragraph, title, single_image)
-  (optional parameters depending on type).
-
-My personal JSON file is in the root of the repo and provides the optional parameters for all available types. 
+*Stories are loaded via a JSON file
+*Layout is dynamic according to the objects in the JSON file
+*Beautiful reading interface + Photo lightbox
 
 # License
 (The MIT License)
