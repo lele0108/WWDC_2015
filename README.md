@@ -2,6 +2,10 @@
 
 My goal: to create a beautiful reading exprience for conveying a curation of my beliefs and learning. 
 
+![Alt text](http://i.imgur.com/A8IdVW8.jpg)
+![Alt text](http://i.imgur.com/zCKL4Ch.jpg)
+![Alt text](http://i.imgur.com/ptXyBB3.png)
+
 #JSON spec
 
 Stories are loaded via JSON. Basic spec is avaialble here: 
