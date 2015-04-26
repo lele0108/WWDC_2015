@@ -2,9 +2,11 @@
 
 My goal: to create a beautiful reading exprience for conveying a curation of my beliefs and learning. 
 
-![Screenshot1](http://i.imgur.com/A8IdVW8.jpg)
-![Screenshot2](http://i.imgur.com/zCKL4Ch.jpg)
-![Screenshot3](http://i.imgur.com/ptXyBB3.png)
+![Screenshot1](http://i.imgur.com/qa6t3BM.png)
+
+![Screenshot2](http://i.imgur.com/68n4304.png)
+
+![Screenshot3](http://i.imgur.com/p8pM4BK.png)
 
 #JSON spec
 
