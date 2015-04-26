@@ -1,5 +1,57 @@
  [
   {
+  "name": "This one is about the present. The rest are the past.",
+  "date": "Today",
+  "location": "Cupertino, California",
+  "image": "now.jpg",
+  "number": "Story Zero",
+  "contents": [
+               {
+               "type": "title",
+               "text": "0. Who I am right now"
+               },
+               {
+               "type": "paragraph",
+               "text": "The stories below this are outlines of my life and adventures. This one, well, it’s just about what I am doing right now. I’m identity myself as a design oriented developer. I mostly code in Javascript and Objective-C while also working on UI/UX."
+               },
+               {
+               "type": "single_image",
+               "image": "me.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "I made my first website in fourth grade (more about this later!) and co-founded a seed stage startup called Bash when I was 16. Along this journey I've also done some awesome things but I'll leave those to the rest of the stories. I’m currently 17 years old right now living in the beautiful city of Cupertino, California (chances are you are reading this right here so holla at +14082500629 to get coffee) and attending Monta Vista High School."
+               },
+               {
+               "type": "double_image",
+               "image": [
+                         "bash.png",
+                         "cupertino.jpg"
+                         ]
+               },
+               {
+               "type": "paragraph",
+               "text": "I’m working on my startup full-time this summer while hopefully doing cool thing like attending WWDC! Aside from programming I have also played the violin for quite a while and enjoy going exploring in my free time."
+               },
+               {
+               "type": "paragraph",
+               "text": "I think that’s enough of the current. I invite you to read the stories to follow to learn about how I came to where I am today, and what I have learned from this journey."
+               },
+               {
+               "type": "triple_image",
+               "image": [
+                         "disrupt.jpg",
+                         "mvhs.jpg",
+                         "wwdc.jpg"
+                         ]
+               },
+               {
+               "type": "quote",
+               "text": "Memories are the key not to the past but to the future - Corrie Ten Boom"
+               }
+               ]
+  },
+  {
   "name": "Everyone has a Hello World. This is mine.",
   "date": "Janurary 8th, 1998",
   "location": "Beijing, China",
@@ -12,21 +64,22 @@
                },
                {
                "type": "paragraph",
-               "text": "he modern world full of variables that are unique to each person, everyone still shares two fundamental dates: their both and death. For me, the first date lies on the 8th of January. I was born in the city of Beijing while my parents attended college."
+               "text": "In the modern world full of variables that are unique to each person, everyone still shares two fundamental dates: their both and death. For me, the first date lies on the 8th of January. I was born in the city of Beijing while my parents attended college."
                },
                {
                "type": "single_image",
-               "image": "test1.jpg"
+               "image": "beijing.jpg"
                },
                {
                "type": "paragraph",
                "text": "Our family soon migrated to America, residing in the city of Boise while my dad went to college. I was only one at this time, barely grasping the ability to speak and walk. We moved again to the Silicon Valley after my dad finished his degree. Our final city to this date is Cupertino, California, where I started my education."
                },
                {
-               "type": "double_image",
+               "type": "triple_image",
                "image": [
-                         "test2.jpg",
-                         "test3.jpg"
+                         "boise.jpg",
+                         "sanjose.jpg",
+                         "computer.jpg"
                          ]
                },
                {
@@ -34,21 +87,12 @@
                "text": "Starting from the earliest days, I was deeply interested in the computer. One of my deepest memories would be the day my parents gifted me my first PC: a handy down Packard Bell machine running Windows 98. Truth was that it could do little more than minesweeper, but it was this machine that ultimately fostered my hobby."
                },
                {
+               "type": "quote",
+               "text": "The beginning is the most important part of the work - Plato"
+               },
+               {
                "type": "paragraph",
                "text": "In retrospect, my beginnings were humble but served as a necessary platform for me to become who I am today."
-               },
-               {
-               "type": "triple_image",
-               "image": [
-                         "test3.jpg",
-                         "test4.jpg",
-                         "test1.jpg"
-                         ]
-               },
-               {
-               "type": "quote",
-               "text": "Find something interesting in your life and follow it to your grave. - Steve Jobs",
-               "author": "Steve Jobs"
                }
                ]
   },
@@ -56,7 +100,7 @@
   "name": "Hi I’m in fourth grade and this is my website",
   "date": "September 2007",
   "location": "Cupertino, CA",
-  "image": "test2.jpg",
+  "image": "school.jpg",
   "number": "Story Two",
   "contents": [
                {
@@ -68,8 +112,12 @@
                "text": "I created my first web presence in fourth grade. It was nothing more than a drag and drop website powered by Microsoft. The fascinating part was that it was on the internet. And I was amazed by the internet."
                },
                {
+               "type": "quote",
+               "text": "The internet is becoming the town square for the global village of tomorrow - Bill Gates"
+               },
+               {
                "type": "single_image",
-               "image": "test1.jpg"
+               "image": "website.jpg"
                },
                {
                "type": "paragraph",
@@ -78,8 +126,8 @@
                {
                "type": "double_image",
                "image": [
-                         "test2.jpg",
-                         "test3.jpg"
+                         "psp.jpg",
+                         "html.jpg"
                          ]
                },
                {
@@ -87,21 +135,12 @@
                "text": "Later in middle school the internet would introduce me to running Linux servers and hosting Minecraft servers. While not related to programming, these system administration skills have come in handy many times and without the limitless freedom the internet provided I wouldn’t have learned about this. The internet also powered my first “business”, buying dedicated servers and running Minecraft servers for users. While only approached with limited success, it allowed me to generate some revenue and understand the values of running a business."
                },
                {
-               "type": "triple_image",
-               "image": [
-                         "test3.jpg",
-                         "test4.jpg",
-                         "test1.jpg"
-                         ]
+               "type": "single_image",
+               "image": "minecraft.jpg"
                },
                {
                "type": "paragraph",
                "text": "I don’t have the coolness of saying that I was introduced the internet when it was just started. But I was introduced in the day and age where it served as a place to grow and learn. And I will forever be thankful of such an important tool in my life. "
-               },
-               {
-               "type": "quote",
-               "text": "This is a famous quote by a famous author",
-               "author": "Steve Jobs"
                }
                ]
   },
@@ -122,7 +161,7 @@
                },
                {
                "type": "single_image",
-               "image": "test1.jpg"
+               "image": "lynbrook.jpg"
                },
                {
                "type": "paragraph",
@@ -135,18 +174,30 @@
                {
                "type": "double_image",
                "image": [
-                         "test2.jpg",
-                         "test3.jpg"
+                         "photohack.jpg",
+                         "imaze.png"
                          ]
                },
                {
+               "type": "single_image",
+               "image": "disrupt.jpg"
+               },
+               {
                "type": "paragraph",
-               "text": "The rest was a blur. We won TechCrunch Disrupt’s hackathon. I traveled to MIT all expenses paid with the same friends to write code at HackMIT. But with all gains comes sacrifice and it was my grades in school that suffered because of my outside activities. Looking back, it’s hard to say if I would have done the same or not. The early days of hackathons were tremendously enlightening when compared to the ultra competitive environment and over glorified environment today. Regardless of all, one truth is evident: hackathons really did introduce me to programming which would go on to define my dreams and aspirations."
+               "text": "The rest was a blur. We won TechCrunch Disrupt’s hackathon. I traveled to MIT all expenses paid with the same friends to write code at HackMIT. But with all gains comes sacrifice and it was my grades in school that suffered because of my outside activities."
+               },
+               {
+               "type": "single_image",
+               "image": "mit.jpg"
+               },
+               {
+               "type": "paragraph",
+               "text": "Looking back, it’s hard to say if I would have done the same or not. The early days of hackathons were tremendously enlightening when compared to the ultra competitive environment and over glorified environment today. Regardless of all, one truth is evident: hackathons really did introduce me to programming which would go on to define my dreams and aspirations."
                }
                ]
   },
   {
-  "name": "People should come before design and engineering in products",
+  "name": "People should come first in products",
   "date": "Lifetime",
   "location": "San Francisco, CA",
   "image": "test4.jpg",
@@ -161,19 +212,19 @@
                "text": "This story delves more into my beliefs when creating applications for people. I’ve always loved design. In early grade school, I would spend a lot of time designing my PowerPoints to make them look beautiful despite the constant reminder by my parents that it “doesn’t matter how it looks”. Unlike other design oriented people, I wasn’t very good at art. But it’s my belief that my many years of violin playing has trained me to observe the arts."
                },
                {
-               "type": "single_image",
-               "image": "test1.jpg"
+               "type": "double_image",
+               "image": [
+                         "pixels.jpg",
+                         "users.jpg"
+                         ]
                },
                {
                "type": "paragraph",
                "text": "When I first visited Facebook’s campus, I was attracted to the poster’s they hung around their offices writing their beliefs. One poster in particular caught my one: “People over Pixels”. I agreed with this whole heartily: design isn’t just about how it looks, but rather much more about how it interacts with people. But putting people first shouldn’t stop at design, after all without people there would be no products. "
                },
                {
-               "type": "double_image",
-               "image": [
-                         "test2.jpg",
-                         "test3.jpg"
-                         ]
+               "type": "single_image",
+               "image": "uber.jpg"
                },
                {
                "type": "paragraph",
@@ -182,27 +233,26 @@
                {
                "type": "triple_image",
                "image": [
-                         "test3.jpg",
-                         "test4.jpg",
-                         "test1.jpg"
+                         "ycomb.jpg",
+                         "ui.jpg",
+                         "airbnb.jpg"
                          ]
+               },
+               {
+               "type": "quote",
+               "text": "Make something people want - YCombinator"
                },
                {
                "type": "paragraph",
                "text": "Even in this app, I always put people first. I wanted to create a beautiful reading experience where I could share my ideas and beliefs with other people. The interface was created to focus on the text and no distractions (which is why you do not see the clock on the story screen). When you put people first in your mind, your products become more human and bring more value to the table."
-               },
-               {
-               "type": "quote",
-               "text": "This is a famous quote by a famous author",
-               "author": "Steve Jobs"
                }
                ]
   },
   {
-  "name": "More about people",
+  "name": "Let's talk more about people and relationships",
   "date": "Lifetime",
   "location": "San Francisco, CA",
-  "image": "test1.jpg",
+  "image": "people.jpg",
   "number": "Story Five",
   "contents": [
                {
@@ -215,18 +265,15 @@
                },
                {
                "type": "single_image",
-               "image": "test1.jpg"
+               "image": "connect.jpg"
                },
                {
                "type": "paragraph",
                "text": "Entering my sophomore year of high school, I studied mostly by myself the first semester. I struggled a bit with school due to my busy schedule and in general didn’t do too great. Second semester I took a different approach: I fostered relationships with other people and grew my social network. I studied with friends and shared resources, and we looked out for each other on test days. Because of this, school took drastically less time and effort."
                },
                {
-               "type": "double_image",
-               "image": [
-                         "test2.jpg",
-                         "test3.jpg"
-                         ]
+               "type": "quote",
+               "text": "Eventually everything connects - Charles Eames"
                },
                {
                "type": "paragraph",
@@ -235,19 +282,14 @@
                {
                "type": "triple_image",
                "image": [
-                         "test3.jpg",
-                         "test4.jpg",
-                         "test1.jpg"
+                         "yahoo.jpg",
+                         "quizlet.jpg",
+                         "cat.jpg"
                          ]
                },
                {
                "type": "paragraph",
                "text": "In a world where social media is slowly eating away from the real life connections people make, it’s easy to forget about communicating with people and keeping in touch. But relationships are always worth building. Although it’s hard to predict when they will come in useful, it’s almost certain that you will be glad that you kept in touch with people someday."
-               },
-               {
-               "type": "quote",
-               "text": "This is a famous quote by a famous author",
-               "author": "Steve Jobs"
                }
                ]
   },
@@ -268,17 +310,18 @@
                },
                {
                "type": "single_image",
-               "image": "test1.jpg"
+               "image": "orens.jpg"
                },
                {
                "type": "paragraph",
                "text": "On a fateful summer night in 2014, I was greeted with two ideas that never crossed my mind. The first was eating at Oren’s Hummus, hand’s down the best hummus in the Silicon Valley. The second, was building an app that made it easy to organize events with friends. Two of my close friends knew that I had gained some experience with iOS during my time working on my WWDC app and wanted to create this idea to have a shot at the Apple Student Design Award."
                },
                {
-               "type": "double_image",
+               "type": "triple_image",
                "image": [
-                         "test2.jpg",
-                         "test3.jpg"
+                         "bash.png",
+                         "bash2.png",
+                         "bash3.png"
                          ]
                },
                {
@@ -286,21 +329,16 @@
                "text": "Four months out of development, we were accepted into the Foundry, an incubator situated on the UC Berkeley campus. People loved the simplicity of the application (named Bash) to the point where we were offered angel investment before we even launched. We talked to the founders of YikYak about building viral apps. That was a month ago."
                },
                {
-               "type": "triple_image",
-               "image": [
-                         "test3.jpg",
-                         "test4.jpg",
-                         "test1.jpg"
-                         ]
+               "type": "single_image",
+               "image": "team.jpg"
                },
                {
                "type": "paragraph",
-               "text": "All of this came out of trying iOS for the first time for this same scholarship. Bash (our app) was my second iOS app, and we were only trying to win the Apple Design Award. Yet it turned into something much greater. The most valuable lesson I learned? You miss 100% of the shots you don’t take."
+               "text": "All of this came out of trying iOS for the first time for this same scholarship. Bash (our app) was my second iOS app, and we were only trying to win the Apple Design Award. Yet it turned into something much greater. The most valuable lesson I learned?"
                },
                {
                "type": "quote",
-               "text": "This is a famous quote by a famous author",
-               "author": "Steve Jobs"
+               "text": "You miss 100% of the shots that you don't take - Wayne Gretzky"
                }
                ]
   },
@@ -308,7 +346,7 @@
   "name": "Someone once said that fortune favored the bold",
   "date": "April 20th, 2015",
   "location": "San Francisco, CA",
-  "image": "test3.jpg",
+  "image": "bold.jpg",
   "number": "Story Seven",
   "contents": [
                {
@@ -325,7 +363,7 @@
                },
                {
                "type": "single_image",
-               "image": "test1.jpg"
+               "image": "fortune.jpg"
                },
                {
                "type": "paragraph",
@@ -338,8 +376,8 @@
                {
                "type": "double_image",
                "image": [
-                         "test2.jpg",
-                         "test3.jpg"
+                         "yo.jpg",
+                         "citris.jpg"
                          ]
                },
                {
@@ -347,21 +385,12 @@
                "text": "I was at a crossroads. I could either achieve a lifelong dream of working in SF while making a lot of money that would be used to pay for college, but at the same time lose my vested founder stock options and leave my app, and friends for dead. Or I could turn down the opportunity of a lifetime, something I wanted to do for years to work on my startup that had potential either to be great or nothing."
                },
                {
-               "type": "triple_image",
-               "image": [
-                         "test3.jpg",
-                         "test4.jpg",
-                         "test1.jpg"
-                         ]
+               "type": "quote",
+               "text": "Ships are not built to stay at harbor - Albert Einstein"
                },
                {
                "type": "paragraph",
                "text": "I chose to be bold and to take a risk. Working on my startup over the summer won’t be easy - it’s a process I imagine that will be filled with days of code sprints and hours of sleepless nights. But at the end, I’m sure it will be a experience for me to learn, to reflect, and to gain values. And if I created this iOS WWDC app after the summer, there would surely be a story about what I learned."
-               },
-               {
-               "type": "quote",
-               "text": "This is a famous quote by a famous author",
-               "author": "Steve Jobs"
                }
                ]
   }
