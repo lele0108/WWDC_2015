@@ -3,7 +3,7 @@
   "name": "This one is about the present. The rest are the past.",
   "date": "Today",
   "location": "Cupertino, California",
-  "image": "now.jpg",
+  "image": "fox.jpg",
   "number": "Story Zero",
   "contents": [
                {
@@ -16,7 +16,7 @@
                },
                {
                "type": "single_image",
-               "image": "me.jpg"
+               "image": "mesmall.jpg"
                },
                {
                "type": "paragraph",
@@ -235,7 +235,7 @@
                "image": [
                          "ycomb.jpg",
                          "ui.jpg",
-                         "airbnb.jpg"
+                         "airbnb.png"
                          ]
                },
                {

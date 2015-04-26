@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Jimmy Liu/img/zero/mesmall.jpg">
+   </FileRef>
+   <FileRef
       location = "group:Jimmy Liu.xcodeproj">
    </FileRef>
    <FileRef
