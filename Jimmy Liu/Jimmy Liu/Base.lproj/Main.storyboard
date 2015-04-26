@@ -80,6 +80,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="301" id="COa-x1-bi8"/>
                                                         <constraint firstAttribute="height" constant="69" id="JS3-od-qRT"/>
+                                                        <constraint firstAttribute="width" constant="346" id="ywS-TM-Viw"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="22"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -88,6 +89,7 @@
                                                         <mask key="constraints">
                                                             <exclude reference="COa-x1-bi8"/>
                                                             <exclude reference="JS3-od-qRT"/>
+                                                            <exclude reference="ywS-TM-Viw"/>
                                                         </mask>
                                                     </variation>
                                                     <variation key="widthClass=compact" fixedFrame="YES">
@@ -95,8 +97,9 @@
                                                     </variation>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <mask key="constraints">
-                                                            <include reference="COa-x1-bi8"/>
+                                                            <exclude reference="COa-x1-bi8"/>
                                                             <include reference="JS3-od-qRT"/>
+                                                            <include reference="ywS-TM-Viw"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -138,8 +141,10 @@
                                                 <constraint firstItem="lfa-Cz-CPq" firstAttribute="leading" secondItem="6h1-0o-bak" secondAttribute="leadingMargin" constant="-8" id="OZw-e7-w4A"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="vfz-bm-Lg4" secondAttribute="bottom" constant="-8" id="QvF-qJ-Yw3"/>
                                                 <constraint firstItem="lfa-Cz-CPq" firstAttribute="top" secondItem="6h1-0o-bak" secondAttribute="topMargin" constant="-8" id="Wti-Xv-Zhk"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="f5N-Bu-S2i" secondAttribute="trailing" constant="27" id="Yuo-zN-bd5"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="lfa-Cz-CPq" secondAttribute="bottom" constant="-8.5" id="ZJt-tE-kCS"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="vfz-bm-Lg4" secondAttribute="trailing" constant="-8" id="bEm-dS-biI"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="f5N-Bu-S2i" secondAttribute="trailing" constant="72" id="d4k-3L-Fww"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="lfa-Cz-CPq" secondAttribute="bottom" constant="-8" id="dxC-4C-0k8"/>
                                                 <constraint firstItem="vfz-bm-Lg4" firstAttribute="top" secondItem="6h1-0o-bak" secondAttribute="topMargin" constant="-7.5" id="h4K-AT-fd4"/>
                                                 <constraint firstItem="wFD-Lg-0cb" firstAttribute="leading" secondItem="6h1-0o-bak" secondAttribute="leadingMargin" constant="11" id="krF-Ze-u0R"/>
@@ -181,6 +186,8 @@
                                                     <exclude reference="o3m-AU-OQ2"/>
                                                     <exclude reference="rkG-xt-cy6"/>
                                                     <exclude reference="FQx-N1-6I2"/>
+                                                    <exclude reference="Yuo-zN-bd5"/>
+                                                    <exclude reference="d4k-3L-Fww"/>
                                                     <exclude reference="ktp-xc-vtD"/>
                                                     <exclude reference="5Bl-a5-42S"/>
                                                     <exclude reference="krF-Ze-u0R"/>
@@ -220,6 +227,8 @@
                                                     <include reference="o3m-AU-OQ2"/>
                                                     <include reference="rkG-xt-cy6"/>
                                                     <include reference="FQx-N1-6I2"/>
+                                                    <include reference="Yuo-zN-bd5"/>
+                                                    <exclude reference="d4k-3L-Fww"/>
                                                     <include reference="ktp-xc-vtD"/>
                                                     <include reference="5Bl-a5-42S"/>
                                                     <exclude reference="krF-Ze-u0R"/>
