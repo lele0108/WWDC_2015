@@ -2,6 +2,8 @@
 
 My goal: to create a beautiful reading exprience for conveying a curation of my beliefs and learning. 
 
+Update: Happy to be attending WWDC this year!
+
 
 ![Screenshot1](http://i.imgur.com/qa6t3BM.png) ![Screenshot2](http://i.imgur.com/68n4304.png) ![Screenshot3](http://i.imgur.com/p8pM4BK.png)
 
